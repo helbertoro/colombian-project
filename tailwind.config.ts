@@ -1,0 +1,34 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    container: {
+      center: true,
+      padding: "0.5rem",
+    },
+  },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#c37f3b",
+          secondary: "#6d6b30",
+          accent: "#ffffff",
+          neutral: "#1d283a",
+          "base-100": "#f7f8f3",
+          info: "#0ca6e9",
+          success: "#2bd4bd",
+          warning: "#f4c152",
+          error: "#fb6f84",
+        },
+      },
+    ],
+  },
+  plugins: [require("daisyui")],
+};
+export default config;
