@@ -1,21 +1,26 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../images/tcp-logo.png";
 
 export const MainMenu = () => {
   return (
     <div className="bg-base-100">
-      <div className="container py-4">
+      <div className="container py-6">
         <div className="flex justify-between">
           <Image
             src={logo}
             width={100}
             height={56}
-            alt="Picture of the author"
+            alt="Colombian Project Logo"
           />
           <nav>
             <ul className="flex">
               <li>
-                <a className="btn btn-ghost m-1 text-primary" href="">
+                <a
+                  className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
+                  href=""
+                >
                   tailor made travel
                 </a>
               </li>
@@ -23,9 +28,9 @@ export const MainMenu = () => {
                 <div className="dropdown dropdown-hover">
                   <label
                     tabIndex={0}
-                    className="btn btn-ghost m-1 text-primary"
+                    className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
                   >
-                    travel experiences
+                    travel experiences <FontAwesomeIcon icon={faChevronDown} />
                   </label>
                   <ul
                     tabIndex={0}
@@ -59,7 +64,10 @@ export const MainMenu = () => {
                 </div>
               </li>
               <li>
-                <a className="btn btn-ghost m-1 text-primary" href="">
+                <a
+                  className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
+                  href=""
+                >
                   birding
                 </a>
               </li>
@@ -67,9 +75,9 @@ export const MainMenu = () => {
                 <div className="dropdown-hover dropdown">
                   <label
                     tabIndex={0}
-                    className="btn btn-ghost m-1 text-primary"
+                    className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
                   >
-                    about us
+                    about us <FontAwesomeIcon icon={faChevronDown} />
                   </label>
                   <ul
                     tabIndex={0}

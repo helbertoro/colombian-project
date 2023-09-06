@@ -7,9 +7,20 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      primary: "#c37f3b",
+      secondary: "#6d6b30",
+      tertiary: "#bab8ab",
+    },
     container: {
       center: true,
       padding: "0.5rem",
+    },
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-barlow)"],
+        serif: ["var(--font-cardo)"],
+      },
     },
   },
   daisyui: {
@@ -18,6 +29,7 @@ const config: Config = {
         mytheme: {
           primary: "#c37f3b",
           secondary: "#6d6b30",
+          tertiary: "#bab8ab",
           accent: "#ffffff",
           neutral: "#1d283a",
           "base-100": "#f7f8f3",

@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+
 export const AuxiliarMenu = () => {
   return (
     <div className="bg-secondary">
@@ -6,7 +9,7 @@ export const AuxiliarMenu = () => {
           <li>
             <div className="dropdown dropdown-hover">
               <label tabIndex={0} className="btn btn-secondary btn-sm m-1">
-                Colombia
+                Colombia <FontAwesomeIcon icon={faChevronDown} />
               </label>
               <ul
                 tabIndex={0}
@@ -26,7 +29,7 @@ export const AuxiliarMenu = () => {
           <li>
             <div className="dropdown-hover dropdown">
               <label tabIndex={0} className="btn btn-secondary btn-sm m-1">
-                travel advice
+                travel advice <FontAwesomeIcon icon={faChevronDown} />
               </label>
               <ul
                 tabIndex={0}

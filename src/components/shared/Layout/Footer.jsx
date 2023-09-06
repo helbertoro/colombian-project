@@ -3,7 +3,7 @@ export const Footer = () => {
 
   return (
     <div className="bg-secondary">
-      <div className="container">
+      <div className="container py-4">
         <div className="flex items-center justify-between">
           <ul className="flex">
             <li>
