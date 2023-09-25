@@ -30,4 +30,13 @@
   .columns-two > div{
     @apply w-1/2;
   }
+  .tabs > .tab{
+    @apply hover:bg-hover-accent hover:shadow-md;
+  }
+}
+
+@layer utilities {
+  .tab-active{
+    @apply bg-hover-accent shadow-md;
+  }
 }
