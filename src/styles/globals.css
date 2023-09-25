@@ -4,15 +4,24 @@
 
 @layer base {
   h1 {
-    @apply text-3xl;
+    @apply text-3xl text-center text-primary mb-8;
   }
   h2 {
-    @apply text-2xl;
+    @apply text-2xl text-secondary mb-4;
   }
   h3 {
-    @apply text-2xl font-bold;
+    @apply text-xl text-secondary font-bold;
   }
   p {
     @apply font-serif text-lg mb-4;
+  }
+}
+
+@layer components {
+  .columns-two {
+    @apply flex gap-8;
+  }
+  .columns-two > div{
+    @apply w-1/2;
   }
 }

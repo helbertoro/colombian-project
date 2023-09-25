@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown, faBars } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../images/tcp-logo.png";
 
 export const MainMenu = () => {
@@ -8,21 +9,23 @@ export const MainMenu = () => {
     <div className="bg-base-100">
       <div className="container py-6">
         <div className="flex justify-between">
-          <Image
-            src={logo}
-            width={100}
-            height={56}
-            alt="Colombian Project Logo"
-          />
-          <nav>
+          <Link href="/">
+            <Image
+              src={logo}
+              width={100}
+              height={56}
+              alt="Colombian Project Logo"
+            />
+          </Link>
+          <nav className="hidden md:block">
             <ul className="flex">
               <li>
-                <a
+                <Link
                   className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
-                  href=""
+                  href="/tailor-made-holidays"
                 >
                   tailor made travel
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="dropdown dropdown-hover">
@@ -84,19 +87,28 @@ export const MainMenu = () => {
                     className="menu dropdown-content rounded-box z-[1] w-52 bg-base-100 p-2 shadow"
                   >
                     <li>
-                      <a href="#">pioneers specialists</a>
+                      <Link href="/pioneers-specialists">
+                        pioneers specialists
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">why the colombian project</a>
+                      <Link href="/why-the-colombian-project">
+                        why the colombian project
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">the team</a>
+                      <Link href="/the-team">the team</Link>
                     </li>
                   </ul>
                 </div>
               </li>
             </ul>
           </nav>
+          <div className="block md:hidden">
+            <button className="btn btn-ghost btn-lg text-primary">
+              <FontAwesomeIcon icon={faBars} />
+            </button>
+          </div>
         </div>
       </div>
     </div>

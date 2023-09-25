@@ -1,9 +1,10 @@
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 export const AuxiliarMenu = () => {
   return (
-    <div className="bg-secondary">
+    <div className="hidden bg-secondary md:block">
       <div className="container">
         <ul className="flex justify-end">
           <li>
@@ -16,12 +17,12 @@ export const AuxiliarMenu = () => {
                 className="menu dropdown-content rounded-box z-[1] w-52 bg-base-100 p-2 shadow"
               >
                 <li>
-                  <a href="/megadiverse-country">megadiverse country</a>
+                  <Link href="/megadiverse-country">megadiverse country</Link>
                 </li>
                 <li>
-                  <a href="/combining-interest-in-colombia">
+                  <Link href="/combining-interest-in-colombia">
                     combining interest in colombia
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -36,21 +37,23 @@ export const AuxiliarMenu = () => {
                 className="menu dropdown-content rounded-box z-[1] w-52 bg-base-100 p-2 shadow"
               >
                 <li>
-                  <a href="/megadiverse-country">traveling in Colombia</a>
+                  <Link href="/traveling-in-colombia">
+                    traveling in Colombia
+                  </Link>
                 </li>
                 <li>
-                  <a href="/combining-interest-in-colombia">VISA information</a>
+                  <Link href="/colombia-visas">VISA information</Link>
                 </li>
                 <li>
-                  <a href="/combining-interest-in-colombia">kit</a>
+                  <Link href="/trekking-equipment-list">kit</Link>
                 </li>
               </ul>
             </div>
           </li>
           <li>
-            <a className="btn btn-secondary btn-sm m-1" href="">
+            <Link className="btn btn-secondary btn-sm m-1" href="/contact-us">
               Contact Us
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

@@ -1,7 +1,8 @@
-import { Layout } from "../../components/shared/Layout/Layout";
+import { Layout } from "@/components/shared";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import partners from "../../images/partners.jpeg";
 import mentions from "../../images/mentions.jpeg";
 
@@ -10,9 +11,7 @@ export const Home = () => {
     <Layout>
       <div className="h-96 bg-neutral text-accent">Banner 1</div>
       <div>
-        <h1 className="my-8 text-center text-primary">
-          YOUR JOURNEY - OUR PASSION
-        </h1>
+        <h1 className="mt-8">YOUR JOURNEY - OUR PASSION</h1>
         <div className="bg-neutral pb-5 pt-8">
           <div className="mx-auto w-1/3 text-center text-base-100">
             <p>
@@ -37,7 +36,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="py-8">
+      <div className="mb-16 py-8">
         <h2 className="mb-12 text-center text-primary">
           WE’RE DIFFERENT. HERE'S WHY.
         </h2>
@@ -82,7 +81,7 @@ export const Home = () => {
                 Send us a message and one of our travel specialists will get
                 right back to you. enquiries@colombianproject.com
               </p>
-              <a className="btn btn-secondary btn-sm" href="#">
+              <a className="btn btn-primary btn-sm text-accent" href="#">
                 Enquire
               </a>
             </div>
@@ -97,19 +96,23 @@ export const Home = () => {
             </div>
             <div className="text-center">
               <b className="mb-4 block text-2xl text-secondary">CONNECT WITH</b>
-              <ul>
+              <ul className="flex justify-center gap-3">
                 <li>
-                  <a href="">F</a>
+                  <a className="btn btn-primary text-2xl text-accent" href="">
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
                 </li>
                 <li>
-                  <a href="">T</a>
+                  <a className="btn btn-primary text-2xl text-accent" href="">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div className="py-8">
+      <div className="mb-16 py-8">
         <h2 className="mb-12 text-center text-primary">
           CREATING ADVENTURES IN COLOMBIA
         </h2>
