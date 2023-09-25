@@ -12,6 +12,12 @@
   h3 {
     @apply text-xl text-secondary font-bold;
   }
+  h4 {
+    @apply text-xl text-primary font-bold uppercase text-center;
+  }
+  h5 {
+    @apply text-lg text-secondary font-bold;
+  }
   p {
     @apply font-serif text-lg mb-4;
   }

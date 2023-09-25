@@ -40,28 +40,42 @@ export const MainMenu = () => {
                     className="menu dropdown-content rounded-box z-[1] w-52 bg-base-100 p-2 shadow"
                   >
                     <li>
-                      <a href="#">cultural-natural-discovery</a>
+                      <Link href="/travel-experiences/cultural-natural-discovery">
+                        cultural natural discovery
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">walkstreks</a>
+                      <Link href="/travel-experiences/walkstreks">
+                        walkstreks
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">wildlife-watching</a>
+                      <Link href="/travel-experiences/wildlife-watching">
+                        wildlife watching
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">birding</a>
+                      <Link href="/travel-experiences/wildlife-watching">
+                        birding
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">history-archaeology</a>
+                      <Link href="/travel-experiences/history-archaeology">
+                        history archaeology
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">cycling</a>
+                      <Link href="/travel-experiences/cycling">cycling</Link>
                     </li>
                     <li>
-                      <a href="#">the-lost-city</a>
+                      <Link href="/travel-experiences/the-lost-city">
+                        the lost city
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">family-holidays</a>
+                      <Link href="/travel-experiences/family-holidays">
+                        family holidays
+                      </Link>
                     </li>
                   </ul>
                 </div>
