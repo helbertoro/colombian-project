@@ -3,8 +3,6 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import partners from "../../images/partners.jpeg";
-import mentions from "../../images/mentions.jpeg";
 
 export const Home = () => {
   return (
@@ -139,15 +137,26 @@ export const Home = () => {
           <h3 className="mb-3 text-center text-primary">
             KEY PARTNERS & AFFILIATIONS
           </h3>
-          <Image src={partners} alt="Image Colombian Project Partners" />
+          <Image
+            src="https://la-leyenda.com/ext-images/colombian/partners.jpeg"
+            alt="Image Colombian Project Partners"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="h-auto w-full"
+          />
         </div>
       </div>
       <div className="bg-tertiary">
         <div className="container py-8">
           <h3 className="mb-3 text-center text-accent">AS MENTIONED IN</h3>
           <Image
-            src={mentions}
+            src="https://la-leyenda.com/ext-images/colombian/mentions.jpeg"
             alt="Image Colombian Project Mentions in the Press"
+            width="0"
+            height="0"
+            sizes="100vw"
+            className="h-auto w-full"
           />
         </div>
       </div>

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faBars } from "@fortawesome/free-solid-svg-icons";
-import logo from "../../../images/tcp-logo.png";
 
 export const MainMenu = () => {
   return (
@@ -11,7 +10,7 @@ export const MainMenu = () => {
         <div className="flex justify-between">
           <Link href="/">
             <Image
-              src={logo}
+              src="https://la-leyenda.com/ext-images/colombian/tcp-logo.png"
               width={100}
               height={56}
               alt="Colombian Project Logo"
@@ -28,7 +27,7 @@ export const MainMenu = () => {
                 </Link>
               </li>
               <li>
-                <div className="dropdown dropdown-hover">
+                <div className="dropdown-hover dropdown">
                   <label
                     tabIndex={0}
                     className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
