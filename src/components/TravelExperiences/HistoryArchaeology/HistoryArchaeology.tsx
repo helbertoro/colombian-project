@@ -4,7 +4,6 @@ import {
   Overview,
   SampleItinerary,
   KeyLocations,
-  Cultures,
   Gallery,
   TravelTime,
   Prices,
@@ -31,10 +30,6 @@ export const HistoryArchaeology = () => {
     "key-locations": {
       title: "Key Locations",
       content: KeyLocations,
-    },
-    cultures: {
-      title: "Cultures",
-      content: Cultures,
     },
     gallery: {
       title: "Gallery",

@@ -21,6 +21,9 @@
   p {
     @apply font-serif text-lg mb-4;
   }
+  ul {
+    @apply font-serif;
+  }
 }
 
 @layer components {
@@ -32,6 +35,9 @@
   }
   .tabs > .tab{
     @apply hover:bg-hover-accent hover:shadow-md;
+  }
+  .btn {
+    @apply font-sans;
   }
 }
 

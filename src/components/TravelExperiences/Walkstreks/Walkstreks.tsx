@@ -4,7 +4,7 @@ import {
   Overview,
   SampleItinerary,
   KeyLocations,
-  Cultures,
+  DestinationHiglights,
   Gallery,
   TravelTime,
   Prices,
@@ -32,9 +32,9 @@ export const Walkstreks = () => {
       title: "Key Locations",
       content: KeyLocations,
     },
-    cultures: {
-      title: "Cultures",
-      content: Cultures,
+    "destination-highlights": {
+      title: "Destination Higlights",
+      content: DestinationHiglights,
     },
     gallery: {
       title: "Gallery",
