@@ -38,7 +38,7 @@ export const Home = () => {
       </div>
       <div className="mb-16 py-8">
         <h2 className="mb-12 text-center text-primary">
-          WE’RE DIFFERENT. HERE'S WHY.
+          WE&rsquo;RE DIFFERENT. HERE&apos;S WHY.
         </h2>
         <div className="container">
           <div className="grid grid-cols-3 gap-20">

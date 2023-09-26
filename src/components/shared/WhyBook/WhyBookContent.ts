@@ -1,4 +1,11 @@
-export const WhyBookContent = {
+interface WhyBookContent {
+  [key: string]: {
+    title: string;
+    content: string;
+  }[];
+}
+
+export const WhyBookContent: WhyBookContent = {
   CulturalNaturalDiscovery: [
     {
       title: "KNOWLEDGE",

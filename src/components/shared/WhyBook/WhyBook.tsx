@@ -6,7 +6,7 @@ interface Props {
 
 interface Items {
   title: string;
-  content: number;
+  content: string;
 }
 
 export const WhyBook = ({ section }: Props) => {

@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
   faGlobe,
   faCalendarCheck,
@@ -16,8 +17,15 @@ interface TabsProps {
   selectedItem: string;
 }
 
+type OptionsContent = {
+  [key: string]: {
+    title: string;
+    icon: IconDefinition;
+  };
+};
+
 export const Tabs = ({ content, onChangeItem, selectedItem }: TabsProps) => {
-  const Options = {
+  const Options: OptionsContent = {
     overview: {
       title: "Overview",
       icon: faGlobe,
