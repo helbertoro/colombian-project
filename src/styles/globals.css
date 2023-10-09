@@ -27,13 +27,16 @@
 }
 
 @layer components {
+  .dropdown ul li a{
+    @apply font-sans text-secondary uppercase hover:text-secondary;
+  }
   .columns-two {
     @apply flex gap-8;
   }
   .columns-two > div{
     @apply w-1/2;
   }
-  .tabs > .tab{
+  .tabs > .tab {
     @apply hover:bg-hover-accent hover:shadow-md;
   }
   .btn {
@@ -42,7 +45,22 @@
 }
 
 @layer utilities {
-  .tab-active{
+  .tab-active {
     @apply bg-hover-accent shadow-md;
+  }
+  .bg-texture {
+    @apply relative;
+  }
+  .bg-texture:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image: url('https://la-leyenda.com/ext-images/colombian/background-img.png');
+    background-repeat: repeat;
   }
 }

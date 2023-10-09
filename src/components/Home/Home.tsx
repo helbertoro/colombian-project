@@ -15,7 +15,7 @@ export const Home = () => {
       <div className="h-96 bg-neutral text-accent">Banner 1</div>
       <div>
         <h1 className="mt-8">YOUR JOURNEY - OUR PASSION</h1>
-        <div className="bg-neutral pb-5 pt-8">
+        <div className="bg-texture bg-neutral pb-5 pt-8">
           <div className="mx-auto w-1/3 text-center text-base-100">
             <p>
               Colombia is a country full of natural and cultural riches borne of

@@ -4,7 +4,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 export const AuxiliarMenu = () => {
   return (
-    <div className="hidden bg-secondary md:block">
+    <div className="bg-texture hidden bg-secondary md:block">
       <div className="container">
         <ul className="flex justify-end">
           <li>
@@ -50,7 +50,7 @@ export const AuxiliarMenu = () => {
               </ul>
             </div>
           </li>
-          <li>
+          <li className="z-10">
             <Link className="btn btn-secondary btn-sm m-1" href="/contact-us">
               Contact Us
             </Link>

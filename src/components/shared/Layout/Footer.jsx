@@ -4,10 +4,10 @@ export const Footer = () => {
   const getYear = () => new Date().getFullYear();
 
   return (
-    <footer className="bg-secondary">
+    <footer className="bg-texture bg-secondary">
       <div className="container py-4">
         <div className="flex items-center justify-between">
-          <ul className="flex">
+          <ul className="z-10 flex">
             <li>
               <Link className="btn btn-secondary btn-sm m-1" href="/">
                 Home
