@@ -1,13 +1,13 @@
 export const teamContent = [
   {
-    photo: "Juan",
-    name: "JUAN ORTÍZ",
-    rol: "Co-Founder",
-  },
-  {
     photo: "BRIAN MURPHY",
     name: "BRIAN MURPHY",
     rol: "Co-Founder",
+  },
+  {
+    photo: "Dave",
+    name: "DAVE PROCTER",
+    rol: "General Manager",
   },
   {
     photo: "CAMILO ORTEGA",

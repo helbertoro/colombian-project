@@ -2,7 +2,12 @@ import { Layout } from "@/components/shared";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const Home = () => {
   return (
@@ -89,7 +94,7 @@ export const Home = () => {
               </b>
               <p>Drop us a line if you’d prefer to chat with us one on one.</p>
               <b className="text-xl text-secondary">
-                Call: (COL) +57 320 657 2177
+                Call: (COL) +57 320 900 1645
               </b>
             </div>
             <div className="text-center">
@@ -102,7 +107,12 @@ export const Home = () => {
                 </li>
                 <li>
                   <a className="btn btn-primary text-2xl text-accent" href="">
-                    <FontAwesomeIcon icon={faTwitter} />
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+                </li>
+                <li>
+                  <a className="btn btn-primary text-2xl text-accent" href="">
+                    <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                 </li>
               </ul>

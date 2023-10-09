@@ -27,7 +27,7 @@ export const MainMenu = () => {
                 </Link>
               </li>
               <li>
-                <div className="dropdown-hover dropdown">
+                <div className="dropdown dropdown-hover">
                   <label
                     tabIndex={0}
                     className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
@@ -53,11 +53,11 @@ export const MainMenu = () => {
                         wildlife watching
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/travel-experiences/wildlife-watching">
                         birding
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="/travel-experiences/history-archaeology">
                         history archaeology
@@ -78,14 +78,6 @@ export const MainMenu = () => {
                     </li>
                   </ul>
                 </div>
-              </li>
-              <li>
-                <a
-                  className="btn btn-ghost btn-lg m-1 h-12 min-h-0 text-primary"
-                  href=""
-                >
-                  birding
-                </a>
               </li>
               <li>
                 <div className="dropdown-hover dropdown">

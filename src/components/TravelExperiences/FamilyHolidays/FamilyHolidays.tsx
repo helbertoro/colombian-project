@@ -4,8 +4,7 @@ import {
   Overview,
   SampleItinerary,
   KeyLocations,
-  Cultures,
-  Gallery,
+  DestinationHiglights,
   TravelTime,
   Prices,
 } from "./";
@@ -32,13 +31,9 @@ export const FamilyHolidays = () => {
       title: "Key Locations",
       content: KeyLocations,
     },
-    cultures: {
-      title: "Cultures",
-      content: Cultures,
-    },
-    gallery: {
-      title: "Gallery",
-      content: Gallery,
+    "destination-highlights": {
+      title: "Destination Higlights",
+      content: DestinationHiglights,
     },
     "travel-time": {
       title: "Travel Time",

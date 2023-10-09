@@ -1,25 +1,25 @@
+import Link from "next/link";
+
 export const Footer = () => {
   const getYear = () => new Date().getFullYear();
 
   return (
-    <div className="bg-secondary">
+    <footer className="bg-secondary">
       <div className="container py-4">
         <div className="flex items-center justify-between">
           <ul className="flex">
             <li>
-              <a className="btn btn-secondary btn-sm m-1" href="#">
+              <Link className="btn btn-secondary btn-sm m-1" href="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="btn btn-secondary btn-sm m-1" href="#">
-                Birding tours
-              </a>
-            </li>
-            <li>
-              <a className="btn btn-secondary btn-sm m-1" href="#">
+              <Link
+                className="btn btn-secondary btn-sm m-1"
+                href="megadiverse-country"
+              >
                 Why Colombia
-              </a>
+              </Link>
             </li>
           </ul>
           <span className="text-accent">
@@ -27,6 +27,6 @@ export const Footer = () => {
           </span>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
