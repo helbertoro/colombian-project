@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Layout, WhyBook, Tabs } from "@/components/shared";
+import { BannerInternal } from "@/components/shared";
 import {
   Overview,
   SampleItinerary,
@@ -51,7 +52,9 @@ export const Cycling = () => {
 
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div className="container my-20">
         <Tabs
           content={Object.keys(contentTabs)}
@@ -61,7 +64,9 @@ export const Cycling = () => {
         {React.createElement(contentTabs[activeItem].content)}
         <WhyBook section="Cycling" />
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub">
+        <BannerInternal type="sub" />
+      </div>
     </Layout>
   );
 };

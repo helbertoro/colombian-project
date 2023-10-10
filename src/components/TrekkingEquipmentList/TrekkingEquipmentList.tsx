@@ -1,9 +1,12 @@
 import { Layout } from "@/components/shared";
+import { BannerInternal } from "@/components/shared";
 
 export const TrekkingEquipmentList = () => {
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div className="container my-20">
         <div>
           <h1>RECOMMENDED TREKKING EQUIPMENT LIST FOR A COLOMBIAN HOLIDAY</h1>
@@ -247,7 +250,9 @@ export const TrekkingEquipmentList = () => {
           </div>
         </div>
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub">
+        <BannerInternal type="sub" />
+      </div>
     </Layout>
   );
 };

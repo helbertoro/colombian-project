@@ -1,46 +1,46 @@
 export const teamContent = [
   {
-    photo: "BRIAN MURPHY",
+    photo: "brian.jpeg",
     name: "BRIAN MURPHY",
     rol: "Co-Founder",
   },
   {
-    photo: "Dave",
+    photo: "dave-procter.jpeg",
     name: "DAVE PROCTER",
     rol: "General Manager",
   },
   {
-    photo: "CAMILO ORTEGA",
+    photo: "camilo-ortega.jpeg",
     name: "CAMILO ORTEGA",
     rol: "Product Manager",
   },
   {
-    photo: "LAURA JARA",
+    photo: "laura-jara.jpeg",
     name: "LAURA JARA",
     rol: "Sales Consultant",
   },
   {
-    photo: "YULIANA MARTÍNEZ",
+    photo: "yuliana-martinez.jpeg",
     name: "YULIANA MARTÍNEZ",
     rol: "Sales & Ops Coordinator",
   },
   {
-    photo: "CLAUDIA DORADO",
+    photo: "claudia-dorado.jpeg",
     name: "CLAUDIA DORADO",
     rol: "Operations",
   },
   {
-    photo: "NORMA GIRALDO",
+    photo: "norma-giraldo.jpeg",
     name: "NORMA GIRALDO",
     rol: "Financial Administrator",
   },
   {
-    photo: "LADY LÓPEZ",
+    photo: "lady-lopez.jpeg",
     name: "LADY LÓPEZ",
     rol: "Sales Support",
   },
   {
-    photo: "JUAN DIEGO CASTILLO",
+    photo: "juan-diego.jpeg",
     name: "JUAN DIEGO CASTILLO",
     rol: "Lead Photographer",
   },

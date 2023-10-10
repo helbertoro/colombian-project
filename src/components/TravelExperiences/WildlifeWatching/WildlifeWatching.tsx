@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Layout, WhyBook, Tabs } from "@/components/shared";
+import { BannerInternal } from "@/components/shared";
 import {
   Overview,
   SampleItinerary,
@@ -56,7 +57,9 @@ export const WildlifeWatching = () => {
 
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div className="container my-20">
         <Tabs
           content={Object.keys(contentTabs)}
@@ -66,7 +69,9 @@ export const WildlifeWatching = () => {
         {React.createElement(contentTabs[activeItem].content)}
         <WhyBook section="WildlifeWatching" />
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
     </Layout>
   );
 };

@@ -1,26 +1,26 @@
 export const tourLeadersContent = [
   {
-    photo: "JUAN DIEGO GIRALDO",
+    photo: "juan-diego.jpeg",
     name: "JUAN DIEGO GIRALDO",
     rol: "Tour Leader",
   },
   {
-    photo: "FABIO ARIAS",
+    photo: "fabio-arias.jpeg",
     name: "FABIO ARIAS",
     rol: "Tour Leader",
   },
   {
-    photo: "ANDERSON MUÑOZ",
+    photo: "anderson-munoz.jpeg",
     name: "ANDERSON MUÑOZ",
     rol: "Tour Leader",
   },
   {
-    photo: "DIEGO CALDERON",
+    photo: "diego-calderon.jpeg",
     name: "DIEGO CALDERON",
     rol: "Guest Leader",
   },
   {
-    photo: "OSWALDO CORTES",
+    photo: "oswaldo-cortes.jpeg",
     name: "OSWALDO CORTES",
     rol: "Tour Leader",
   },

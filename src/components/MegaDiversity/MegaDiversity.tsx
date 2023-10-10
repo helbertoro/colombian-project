@@ -1,13 +1,26 @@
+import Image from "next/image";
 import { Layout } from "@/components/shared";
+import { BannerInternal } from "@/components/shared";
 
 export const MegaDiversity = () => {
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div className="container">
         <div className="columns-two my-20">
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <div className="">
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/colombia/Guambiano-lady-market-Silvia-Cauca-Colombia-Culture-1.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
           </div>
           <div>
             <h1>EXPLAINING COLOMBIA’S DIVERSITY</h1>
@@ -54,8 +67,8 @@ export const MegaDiversity = () => {
           </div>
         </div>
         <div className="h-96 w-full bg-primary">Map</div>
-        <div className="my-20 flex gap-8">
-          <div className="w-9/12">
+        <div className="my-20 flex flex-wrap gap-8 lg:flex-nowrap">
+          <div className="w-full lg:w-9/12">
             <p>
               To the north, along the Caribbean, 1,000 miles (1,600km) of
               coastline stretch from the Darien to the northernmost tip of South
@@ -95,12 +108,32 @@ export const MegaDiversity = () => {
             </p>
           </div>
           <div>
-            <div className="mb-4 h-96 w-full bg-primary">foto 1</div>
-            <div className="h-96 w-full bg-primary">foto 2</div>
+            <div className="mb-4">
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/colombia/IMG_9320-2.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
+            <div className="">
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/colombia/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub">
+        <BannerInternal type="sub" />
+      </div>
     </Layout>
   );
 };

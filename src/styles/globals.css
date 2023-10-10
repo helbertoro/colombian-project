@@ -31,10 +31,10 @@
     @apply font-sans text-secondary uppercase hover:text-secondary;
   }
   .columns-two {
-    @apply flex gap-8;
+    @apply flex flex-wrap gap-8 lg:flex-nowrap;
   }
   .columns-two > div{
-    @apply w-1/2;
+    @apply w-full lg:w-1/2;
   }
   .tabs > .tab {
     @apply hover:bg-hover-accent hover:shadow-md;

@@ -1,9 +1,12 @@
 import { Layout } from "@/components/shared";
+import { BannerInternal } from "@/components/shared";
 
 export const ColombiaVisas = () => {
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div className="container my-20">
         <h1>COLOMBIA VISAS</h1>
         <h2>COUNTRIES ELIGIBLE FOR A TOURIST VISA ON ARRIVAL</h2>
@@ -43,7 +46,9 @@ export const ColombiaVisas = () => {
           your Colombia visa.
         </p>
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub">
+        <BannerInternal type="sub" />
+      </div>
     </Layout>
   );
 };

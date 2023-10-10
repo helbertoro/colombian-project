@@ -12,6 +12,7 @@ const config: Config = {
       secondary: "#6d6b30",
       tertiary: "#bab8ab",
       "hover-accent": "#e9eae5",
+      black: "#706d61",
     },
     container: {
       center: true,
@@ -32,6 +33,7 @@ const config: Config = {
           secondary: "#6d6b30",
           tertiary: "#bab8ab",
           accent: "#ffffff",
+          black: "#706d61",
           neutral: "#6e6f6a",
           "base-100": "#f7f8f3",
           "hover-accent": "#e9eae5",

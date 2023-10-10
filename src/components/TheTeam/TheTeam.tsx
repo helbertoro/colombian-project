@@ -1,6 +1,8 @@
+import Image from "next/image";
 import { Layout } from "@/components/shared";
 import { teamContent } from "./teamContent";
 import { tourLeadersContent } from "./tourLeadersContent";
+import { BannerInternal } from "@/components/shared";
 
 export const TheTeam = () => {
   return (
@@ -14,27 +16,43 @@ export const TheTeam = () => {
           with the best Colombia experiences around. Find out who they are and
           what they do below.
         </p>
-        <div className="grid grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4">
           {teamContent.map((member, index) => (
             <div key={`team-member-${index}`}>
-              <p>Foto</p>
+              <Image
+                src={`https://la-leyenda.com/ext-images/colombian/about/team/${member.photo}`}
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="mb-3 h-auto w-full rounded-lg shadow-lg"
+              />
               <h3>{member.name}</h3>
               <p>{member.rol}</p>
             </div>
           ))}
         </div>
         <h2 className="text-center text-primary">TOUR LEADERS</h2>
-        <div className="grid grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4">
           {tourLeadersContent.map((member, index) => (
             <div key={`tour-leader-${index}`}>
-              <p>Foto</p>
+              <Image
+                src={`https://la-leyenda.com/ext-images/colombian/about/leaders/${member.photo}`}
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="mb-3 h-auto w-full rounded-lg shadow-lg"
+              />
               <h3>{member.name}</h3>
               <p>{member.rol}</p>
             </div>
           ))}
         </div>
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub">
+        <BannerInternal type="sub" />
+      </div>
     </Layout>
   );
 };

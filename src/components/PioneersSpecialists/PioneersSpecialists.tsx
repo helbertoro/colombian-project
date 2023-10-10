@@ -1,9 +1,12 @@
 import { Layout } from "@/components/shared";
+import { BannerInternal } from "@/components/shared";
 
 export const PioneersSpecialists = () => {
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div className="container my-20">
         <h1>ABOUT US</h1>
         <p>
@@ -67,7 +70,9 @@ export const PioneersSpecialists = () => {
           </div>
         </div>
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub">
+        <BannerInternal type="sub" />
+      </div>
     </Layout>
   );
 };

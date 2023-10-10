@@ -4,19 +4,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
-  faTwitter,
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { BannerInternal } from "@/components/shared";
+import { ImageAnimate } from "./ImageAnimate";
 
 export const Home = () => {
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div>
         <h1 className="mt-8">YOUR JOURNEY - OUR PASSION</h1>
         <div className="bg-texture bg-neutral pb-5 pt-8">
-          <div className="mx-auto w-1/3 text-center text-base-100">
+          <div className="mx-auto w-full px-3 text-center text-base-100 sm:w-3/4 md:w-2/4 xl:w-1/3">
             <p>
               Colombia is a country full of natural and cultural riches borne of
               its vast and varied territory. Rugged and unique natural beauty, a
@@ -44,7 +47,7 @@ export const Home = () => {
           WE&rsquo;RE DIFFERENT. HERE&apos;S WHY.
         </h2>
         <div className="container">
-          <div className="grid grid-cols-3 gap-20">
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-20 lg:grid-cols-3">
             <div className="text-center">
               <b className="mb-4 block text-2xl text-secondary">KNOWLEDGE</b>
               <p>
@@ -125,23 +128,84 @@ export const Home = () => {
           CREATING ADVENTURES IN COLOMBIA
         </h2>
         <div className="container">
-          <div className="grid grid-cols-4 gap-12">
-            <div className="h-60 bg-neutral text-accent">
-              cultural natural discovery
+          <div className="grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-12 lg:grid-cols-4">
+            {/* <ImageAnimate /> */}
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/home/culture.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
             </div>
-            <div className="h-60 bg-neutral text-accent">walkstreks</div>
-            <div className="h-60 bg-neutral text-accent">wildlife watching</div>
-            <div className="h-60 bg-neutral text-accent">birding</div>
-            <div className="h-60 bg-neutral text-accent">
-              history archaeology
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/home/trekking.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
             </div>
-            <div className="h-60 bg-neutral text-accent">cycling</div>
-            <div className="h-60 bg-neutral text-accent">the lost city</div>
-            <div className="h-60 bg-neutral text-accent">family holidays</div>
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/home/wildlife.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/home/history.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/home/cycling.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/home/the-lost-city.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/home/family.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub-banner">
+        <BannerInternal type="sub" />
+      </div>
       <div>
         <div className="container py-8">
           <h3 className="mb-3 text-center text-primary">
@@ -153,7 +217,7 @@ export const Home = () => {
             width="0"
             height="0"
             sizes="100vw"
-            className="h-auto w-full"
+            className="h-auto w-full rounded-lg shadow-lg"
           />
         </div>
       </div>
@@ -166,7 +230,7 @@ export const Home = () => {
             width="0"
             height="0"
             sizes="100vw"
-            className="h-auto w-full"
+            className="h-auto w-full rounded-lg shadow-lg"
           />
         </div>
       </div>

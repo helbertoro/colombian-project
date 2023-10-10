@@ -1,13 +1,26 @@
+import Image from "next/image";
 import { Layout } from "@/components/shared";
+import { BannerInternal } from "@/components/shared";
 
 export const CombiningInterestInColombia = () => {
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div id="banner">
+        <BannerInternal type="banner" />
+      </div>
       <div className="container my-20">
         <div className="columns-two">
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <div>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/colombia/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project.jpeg"
+                alt="Image Colombian Project Culture"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="h-auto w-full rounded-lg shadow-lg"
+              />
+            </div>
           </div>
           <div>
             <p>
@@ -27,7 +40,9 @@ export const CombiningInterestInColombia = () => {
           </div>
         </div>
       </div>
-      <div className="h-96 bg-neutral text-accent">Banner 2</div>
+      <div id="sub">
+        <BannerInternal type="sub" />
+      </div>
     </Layout>
   );
 };
