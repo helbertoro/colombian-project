@@ -1,6 +1,10 @@
 import Image from "next/image";
 
-export const BannerInternal = ({ type }) => {
+interface BannerInternalProps {
+  type: string;
+}
+
+export const BannerInternal = ({ type }: BannerInternalProps) => {
   if (type === "banner") {
     return (
       <Image
