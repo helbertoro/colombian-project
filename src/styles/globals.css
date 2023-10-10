@@ -63,4 +63,10 @@
     background-image: url('https://la-leyenda.com/ext-images/colombian/background-img.png');
     background-repeat: repeat;
   }
+  .menu-mobile li{
+    @apply font-sans text-lg text-primary uppercase
+  }
+  .menu-mobile li ul li{
+    @apply text-base text-secondary
+  }
 }

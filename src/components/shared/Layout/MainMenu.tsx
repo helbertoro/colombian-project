@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { MobileMenu } from "./";
 
 export const MainMenu = () => {
   return (
     <div className="bg-base-100">
-      <div className="container py-6">
+      <div className="container py-3 md:py-6">
         <div className="flex justify-between">
           <Link href="/">
             <Image
@@ -110,9 +111,7 @@ export const MainMenu = () => {
             </ul>
           </nav>
           <div className="block md:hidden">
-            <button className="btn btn-ghost btn-lg text-primary">
-              <FontAwesomeIcon icon={faBars} />
-            </button>
+            <MobileMenu />
           </div>
         </div>
       </div>
