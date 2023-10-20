@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Layout } from "@/components/shared";
 import { MoreInfo } from "./MoreInfo";
 import { ContactForm } from "./ContactForm";
@@ -5,7 +6,16 @@ import { ContactForm } from "./ContactForm";
 export const ContactUs = () => {
   return (
     <Layout>
-      <div className="h-96 bg-neutral text-accent">Banner 1</div>
+      <div className="bg-neutral text-accent">
+        <Image
+          src="https://la-leyenda.com/ext-images/colombian/banner/contact.jpeg"
+          alt="Image Colombian Project Culture"
+          width="0"
+          height="0"
+          sizes="100%"
+          className="h-auto w-full"
+        />
+      </div>
       <div className="container">
         <div>
           <h1 className="mt-8">GETTING IN TOUCH WITH THE COLOMBIAN PROJECT</h1>
