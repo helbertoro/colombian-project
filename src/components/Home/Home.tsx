@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Layout } from "@/components/shared";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -87,9 +88,12 @@ export const Home = () => {
                 Send us a message and one of our travel specialists will get
                 right back to you. enquiries@colombianproject.com
               </p>
-              <a className="btn btn-primary btn-sm text-accent" href="#">
+              <Link
+                className="btn btn-primary btn-sm text-accent"
+                href="/contact-us"
+              >
                 Enquire
-              </a>
+              </Link>
             </div>
             <div className="text-center">
               <b className="mb-4 block text-2xl text-secondary">
