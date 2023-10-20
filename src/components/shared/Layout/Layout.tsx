@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import { Barlow_Semi_Condensed, Cardo } from "next/font/google";
 import { MainMenu, AuxiliarMenu, Footer } from "./";
+import { Whatsapp } from "@/components";
 
 type LayoutProps = {
   children: ReactNode;
@@ -26,6 +27,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <AuxiliarMenu />
       <MainMenu />
       {children}
+      <Whatsapp />
       <Footer />
     </div>
   );

@@ -104,17 +104,29 @@ export const Home = () => {
               <b className="mb-4 block text-2xl text-secondary">CONNECT WITH</b>
               <ul className="flex justify-center gap-3">
                 <li>
-                  <a className="btn btn-primary text-2xl text-accent" href="">
+                  <a
+                    className="btn btn-primary text-2xl text-accent"
+                    href="https://www.facebook.com/pages/The-Colombian-Project/215566675122275?ref=hl"
+                    target="_blank"
+                  >
                     <FontAwesomeIcon icon={faFacebook} />
                   </a>
                 </li>
                 <li>
-                  <a className="btn btn-primary text-2xl text-accent" href="">
+                  <a
+                    className="btn btn-primary text-2xl text-accent"
+                    href=""
+                    target="_blank"
+                  >
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </li>
                 <li>
-                  <a className="btn btn-primary text-2xl text-accent" href="">
+                  <a
+                    className="btn btn-primary text-2xl text-accent"
+                    href=""
+                    target="_blank"
+                  >
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                 </li>

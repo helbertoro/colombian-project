@@ -9,3 +9,4 @@ export { ContactUs } from "./ContactUs/ContactUs";
 export { PioneersSpecialists } from "./PioneersSpecialists/PioneersSpecialists";
 export { WhyTheColombianProject } from "./WhyTheColombianProject/WhyTheColombianProject";
 export { TheTeam } from "./TheTeam/TheTeam";
+export { Whatsapp } from "./Whatsapp/Whatsapp";

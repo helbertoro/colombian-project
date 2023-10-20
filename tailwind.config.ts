@@ -13,6 +13,7 @@ const config: Config = {
       tertiary: "#bab8ab",
       "hover-accent": "#e9eae5",
       black: "#706d61",
+      whatsapp: "#25d366",
     },
     container: {
       center: true,
@@ -41,6 +42,7 @@ const config: Config = {
           success: "#2bd4bd",
           warning: "#f4c152",
           error: "#fb6f84",
+          whatsapp: "#25d366",
         },
       },
     ],
