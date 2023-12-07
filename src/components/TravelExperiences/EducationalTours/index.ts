@@ -1,0 +1,1 @@
+export { EducationalTours } from "./EducationalTours";

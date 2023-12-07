@@ -41,12 +41,12 @@ export const MainMenu = () => {
                   >
                     <li>
                       <Link href="/travel-experiences/cultural-natural-discovery">
-                        cultural natural discovery
+                        Culture & nature
                       </Link>
                     </li>
                     <li>
                       <Link href="/travel-experiences/walkstreks">
-                        walkstreks
+                        trekking & walking
                       </Link>
                     </li>
                     <li>
@@ -54,14 +54,12 @@ export const MainMenu = () => {
                         wildlife watching
                       </Link>
                     </li>
-                    {/* <li>
-                      <Link href="/travel-experiences/wildlife-watching">
-                        birding
-                      </Link>
-                    </li> */}
+                    <li>
+                      <Link href="/travel-experiences/birding">birding</Link>
+                    </li>
                     <li>
                       <Link href="/travel-experiences/history-archaeology">
-                        history archaeology
+                        history & archaeology
                       </Link>
                     </li>
                     <li>
@@ -94,12 +92,12 @@ export const MainMenu = () => {
                   >
                     <li>
                       <Link href="/pioneers-specialists">
-                        pioneers specialists
+                        pioneers & specialists
                       </Link>
                     </li>
                     <li>
                       <Link href="/why-the-colombian-project">
-                        why the colombian project
+                        why the colombian project?
                       </Link>
                     </li>
                     <li>

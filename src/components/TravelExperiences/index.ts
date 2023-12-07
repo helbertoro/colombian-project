@@ -5,3 +5,5 @@ export { HistoryArchaeology } from "./HistoryArchaeology";
 export { TheLostCity } from "./TheLostCity";
 export { Walkstreks } from "./Walkstreks";
 export { WildlifeWatching } from "./WildlifeWatching";
+export { Birding } from "./Birding";
+export { EducationalTours } from "./EducationalTours";
