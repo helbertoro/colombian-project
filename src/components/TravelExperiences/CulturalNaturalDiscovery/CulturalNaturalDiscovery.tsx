@@ -70,7 +70,7 @@ export const CulturalNaturalDiscovery = () => {
         <WhyBook section="CulturalNaturalDiscovery" />
       </div>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal type="sub" />
       </div>
     </Layout>
   );

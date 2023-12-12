@@ -75,6 +75,11 @@ export const MainMenu = () => {
                         family holidays
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/travel-experiences/educational-tourism">
+                        educational tourism
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </li>

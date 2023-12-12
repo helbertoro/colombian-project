@@ -87,6 +87,9 @@ export const MobileMenu = () => {
                       </Link>
                     </li>
                     <li>
+                      <Link href="/travel-experiences/birding">birding</Link>
+                    </li>
+                    <li>
                       <Link href="/travel-experiences/history-archaeology">
                         history archaeology
                       </Link>
@@ -102,6 +105,11 @@ export const MobileMenu = () => {
                     <li>
                       <Link href="/travel-experiences/family-holidays">
                         family holidays
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/travel-experiences/educational-tourism">
+                        educational tourism
                       </Link>
                     </li>
                   </ul>

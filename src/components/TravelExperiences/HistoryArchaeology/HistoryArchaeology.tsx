@@ -65,7 +65,7 @@ export const HistoryArchaeology = () => {
         <WhyBook section="HistoryArchaeology" />
       </div>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal type="sub" />
       </div>
     </Layout>
   );

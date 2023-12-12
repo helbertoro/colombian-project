@@ -70,7 +70,7 @@ export const Walkstreks = () => {
         <WhyBook section="Walkstreks" />
       </div>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal type="sub" />
       </div>
     </Layout>
   );

@@ -4,7 +4,7 @@ export const Overview = () => {
   return (
     <div className="columns-two my-20">
       <div>
-        <h2>EDUCATIONAL TOURS</h2>
+        <h2>EDUCATIONAL TOURISM AND ACADEMIC TOURS</h2>
         <p>
           Our Study and Leadership academic tours are unique in Colombia.
           Combining genuine insight for academics, professionals and leaders

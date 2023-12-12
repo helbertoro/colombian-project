@@ -65,7 +65,7 @@ export const FamilyHolidays = () => {
         <WhyBook section="FamilyHolidays" />
       </div>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal type="sub" />
       </div>
     </Layout>
   );

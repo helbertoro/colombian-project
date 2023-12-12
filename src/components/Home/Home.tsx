@@ -244,7 +244,7 @@ export const Home = () => {
                 </Link>
               </div>
               <div>
-                <Link href="/travel-experiences/educational-tours">
+                <Link href="/travel-experiences/educational-tourism">
                   <Image
                     src="https://la-leyenda.com/ext-images/colombian/home/educational_tourism.jpeg"
                     alt="Image Colombian Project Culture"

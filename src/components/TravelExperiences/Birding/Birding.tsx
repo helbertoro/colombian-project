@@ -9,7 +9,7 @@ export const Birding = () => {
       </div>
       <div className="container my-20">Birding content</div>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal type="sub" />
       </div>
     </Layout>
   );

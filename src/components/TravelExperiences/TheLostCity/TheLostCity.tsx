@@ -70,7 +70,7 @@ export const TheLostCity = () => {
         <WhyBook section="TheLostCity" />
       </div>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal type="sub" />
       </div>
     </Layout>
   );
