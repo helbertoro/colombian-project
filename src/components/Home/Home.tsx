@@ -9,13 +9,13 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { BannerInternal } from "@/components/shared";
-import { ImageAnimate } from "./ImageAnimate";
+import { homeBanner } from "@/utils/banners";
 
 export const Home = () => {
   return (
     <Layout>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal photos={homeBanner} />
       </div>
       <div>
         <h1 className="mt-8">YOUR JOURNEY - OUR PASSION</h1>
@@ -146,7 +146,6 @@ export const Home = () => {
         <div className="container">
           <div className="mx-auto max-w-7xl">
             <div className="grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-8 lg:grid-cols-3 lg:gap-12">
-              {/* <ImageAnimate /> */}
               <div>
                 <Link href="/travel-experiences/cultural-natural-discovery">
                   <Image

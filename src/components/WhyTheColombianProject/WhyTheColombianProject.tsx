@@ -1,11 +1,13 @@
+import Image from "next/image";
 import { Layout } from "@/components/shared";
 import { BannerInternal } from "@/components/shared";
+import { whyColombianProjectBanner } from "@/utils/banners";
 
 export const WhyTheColombianProject = () => {
   return (
     <Layout>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal photos={whyColombianProjectBanner} />
       </div>
       <div className="container my-20">
         <div className="columns-two">
@@ -142,7 +144,14 @@ export const WhyTheColombianProject = () => {
         </div>
       </div>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <Image
+          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          alt="Image Colombian Project Culture"
+          width="0"
+          height="0"
+          sizes="100%"
+          className="h-auto w-full"
+        />
       </div>
     </Layout>
   );

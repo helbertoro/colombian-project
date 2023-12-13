@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Layout, WhyBook, Tabs } from "@/components/shared";
 import { BannerInternal } from "@/components/shared";
+import { wildlifeBanner } from "@/utils/banners";
 import {
   Overview,
   SampleItinerary,
@@ -59,7 +60,7 @@ export const WildlifeWatching = () => {
   return (
     <Layout>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal photos={wildlifeBanner} />
       </div>
       <div className="container my-20">
         <Tabs

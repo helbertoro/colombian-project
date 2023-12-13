@@ -8,12 +8,27 @@ import {
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 interface BannerInternalProps {
-  type: string;
+  photos: { image: string }[];
 }
 
-export const BannerInternal = ({ type }: BannerInternalProps) => {
+export const BannerInternal = ({ photos }: BannerInternalProps) => {
   const arrowStyles = {
     top: "calc(50% - 15px)",
+  };
+
+  const renderImages = () => {
+    return photos.map((photo) => (
+      <div key={photo.image}>
+        <Image
+          src={photo.image}
+          alt="Image Colombian Project"
+          width="0"
+          height="0"
+          sizes="100%"
+          className="h-auto w-full"
+        />
+      </div>
+    ));
   };
 
   return (
@@ -47,46 +62,7 @@ export const BannerInternal = ({ type }: BannerInternalProps) => {
         </button>
       )}
     >
-      <div>
-        <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/banner.jpeg"
-          alt="Image Colombian Project Culture"
-          width="0"
-          height="0"
-          sizes="100%"
-          className="h-auto w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/educational-tours-3.jpeg"
-          alt="Image Colombian Project Culture"
-          width="0"
-          height="0"
-          sizes="100%"
-          className="h-auto w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/banner.jpeg"
-          alt="Image Colombian Project Culture"
-          width="0"
-          height="0"
-          sizes="100%"
-          className="h-auto w-full"
-        />
-      </div>
-      <div>
-        <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/educational-tours-3.jpeg"
-          alt="Image Colombian Project Culture"
-          width="0"
-          height="0"
-          sizes="100%"
-          className="h-auto w-full"
-        />
-      </div>
+      {renderImages()}
     </Carousel>
   );
 };

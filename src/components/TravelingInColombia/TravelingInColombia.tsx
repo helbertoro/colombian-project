@@ -1,12 +1,13 @@
 import { Layout } from "@/components/shared";
 import Image from "next/image";
 import { BannerInternal } from "@/components/shared";
+import { travelingInColombiaBanner } from "@/utils/banners";
 
 export const TravelingInColombia = () => {
   return (
     <Layout>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal photos={travelingInColombiaBanner} />
       </div>
       <div className="container my-20">
         <div className="columns-two">

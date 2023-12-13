@@ -2,12 +2,13 @@ import Image from "next/image";
 import { Layout } from "@/components/shared";
 import { BannerInternal } from "@/components/shared";
 import { accordionContent } from "./accordionContent";
+import { tailorMadeBanner } from "@/utils/banners";
 
 export const TailorMadeHolidays = () => {
   return (
     <Layout>
       <div id="banner">
-        <BannerInternal type="banner" />
+        <BannerInternal photos={tailorMadeBanner} />
       </div>
       <div className="container my-20">
         <h1>TAILOR MADE TRAVEL</h1>
