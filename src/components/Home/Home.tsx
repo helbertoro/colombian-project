@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { BannerInternal } from "@/components/shared";
 import { homeBanner } from "@/utils/banners";
+import { travelLinks } from "./travelLinks";
 
 export const Home = () => {
   return (
@@ -146,114 +147,23 @@ export const Home = () => {
         <div className="container">
           <div className="mx-auto max-w-7xl">
             <div className="grid grid-cols-2 gap-5 md:grid-cols-3 md:gap-8 lg:grid-cols-3 lg:gap-12">
-              <div>
-                <Link href="/travel-experiences/cultural-natural-discovery">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/culture.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
+              {travelLinks.map((travel, index) => (
+                <Link key={`experience-${index}`} href={travel.link}>
+                  <div className="relative">
+                    <Image
+                      src={`https://la-leyenda.com/ext-images/colombian/home/${travel.image}`}
+                      alt={travel.title}
+                      width="0"
+                      height="0"
+                      sizes="100%"
+                      className="h-auto w-full rounded-lg shadow-lg"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 top-0 rounded-lg bg-black bg-opacity-0 pt-12 text-center transition-all duration-500 hover:bg-opacity-80 hover:pt-16">
+                      <b className="text-2xl text-accent">{travel.title}</b>
+                    </div>
+                  </div>
                 </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/walkstreks">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/trekking.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/wildlife-watching">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/wildlife.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/birding">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/birding.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/history-archaeology">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/history.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/cycling">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/cycling.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/the-lost-city">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/the-lost-city.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/family-holidays">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/family.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
-              <div>
-                <Link href="/travel-experiences/educational-tourism">
-                  <Image
-                    src="https://la-leyenda.com/ext-images/colombian/home/educational_tourism.jpeg"
-                    alt="Image Colombian Project Culture"
-                    width="0"
-                    height="0"
-                    sizes="100%"
-                    className="h-auto w-full rounded-lg shadow-lg"
-                  />
-                </Link>
-              </div>
+              ))}
             </div>
           </div>
         </div>
