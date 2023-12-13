@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import { Layout, WhyBook, Tabs } from "@/components/shared";
 import { BannerInternal } from "@/components/shared";
 import {
@@ -70,7 +71,14 @@ export const TheLostCity = () => {
         <WhyBook section="TheLostCity" />
       </div>
       <div id="banner">
-        <BannerInternal type="sub" />
+        <Image
+          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          alt="Image Colombian Project Culture"
+          width="0"
+          height="0"
+          sizes="100%"
+          className="h-auto w-full"
+        />
       </div>
     </Layout>
   );

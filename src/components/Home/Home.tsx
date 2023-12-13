@@ -260,7 +260,14 @@ export const Home = () => {
         </div>
       </div>
       <div id="sub-banner">
-        <BannerInternal type="sub" />
+        <Image
+          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          alt="Image Colombian Project Culture"
+          width="0"
+          height="0"
+          sizes="100%"
+          className="h-auto w-full"
+        />
       </div>
       <div>
         <div className="container py-8">
