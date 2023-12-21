@@ -12,15 +12,20 @@ export const MegaDiversity = () => {
       <div className="container">
         <div className="columns-two my-20">
           <div>
-            <div className="">
-              <Image
-                src="https://la-leyenda.com/ext-images/colombian/colombia/Guambiano-lady-market-Silvia-Cauca-Colombia-Culture-1.jpeg"
-                alt="Image Colombian Project Culture"
-                width="0"
-                height="0"
-                sizes="100%"
-                className="h-auto w-full rounded-lg shadow-lg"
-              />
+            <div>
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/colombia/Guambiano-lady-market-Silvia-Cauca-Colombia-Culture-1.jpeg"
+                  alt="Photo Misak / Guambiano woman, Silvia market, Cauca"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>
+                  Misak / Guambiano woman, Silvia market, Cauca
+                </figcaption>
+              </figure>
             </div>
           </div>
           <div>
@@ -67,8 +72,17 @@ export const MegaDiversity = () => {
             </p>
           </div>
         </div>
-        <div className="h-96 w-full bg-primary">Map</div>
-        <div className="my-20 flex flex-wrap gap-8 lg:flex-nowrap">
+        <div className="mx-auto w-9/12">
+          <Image
+            src="https://la-leyenda.com/ext-images/colombian/megadiversity/mapa.jpeg"
+            alt="Image Colombian Project Culture"
+            width="0"
+            height="0"
+            sizes="100%"
+            className="h-auto w-full"
+          />
+        </div>
+        <div className="my-20 flex flex-wrap gap-11 md:gap-16 lg:flex-nowrap">
           <div className="w-full lg:w-9/12">
             <p>
               To the north, along the Caribbean, 1,000 miles (1,600km) of
@@ -108,33 +122,41 @@ export const MegaDiversity = () => {
               Spanish.
             </p>
           </div>
-          <div>
-            <div className="mb-4">
-              <Image
-                src="https://la-leyenda.com/ext-images/colombian/colombia/IMG_9320-2.jpeg"
-                alt="Image Colombian Project Culture"
-                width="0"
-                height="0"
-                sizes="100%"
-                className="h-auto w-full rounded-lg shadow-lg"
-              />
+          <div className="flex w-full flex-row gap-4 lg:w-3/12 lg:flex-col">
+            <div className="w-full">
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/colombia/IMG_9320-2.jpeg"
+                  alt="Photo Lulo, agro-ecological farm, Laguna de la Cocha, Nariño"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>
+                  Lulo, agro-ecological farm, Laguna de la Cocha, Nariño
+                </figcaption>
+              </figure>
             </div>
-            <div className="">
-              <Image
-                src="https://la-leyenda.com/ext-images/colombian/colombia/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project.jpeg"
-                alt="Image Colombian Project Culture"
-                width="0"
-                height="0"
-                sizes="100%"
-                className="h-auto w-full rounded-lg shadow-lg"
-              />
+            <div className="w-full">
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/colombia/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project.jpeg"
+                  alt="Photo Crowned-Woodnymph, El Dorado Reserve"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>Crowned-Woodnymph, El Dorado Reserve</figcaption>
+              </figure>
             </div>
           </div>
         </div>
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://la-leyenda.com/ext-images/colombian/megadiversity/White-fronted-Capuchin.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

@@ -10,7 +10,7 @@ export const TravelingInColombia = () => {
         <BannerInternal photos={travelingInColombiaBanner} />
       </div>
       <div className="container my-20">
-        <div className="columns-two">
+        <div className="columns-two mb-12">
           <div>
             <h1>TRAVELLING IN COLOMBIA</h1>
             <p>
@@ -34,12 +34,36 @@ export const TravelingInColombia = () => {
             </p>
           </div>
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <div className="w-full">
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/traveling-in-colombia/Spanish-colonial-architecture.jpg"
+                  alt="Photo Colonial arquitecture, Cartagena"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>Colonial arquitecture, Cartagena</figcaption>
+              </figure>
+            </div>
           </div>
         </div>
         <div className="columns-two">
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <div className="w-full">
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/traveling-in-colombia/Cartagena-group.jpg"
+                  alt="Photo Castillo de San Felipe, Cartagena"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>Castillo de San Felipe, Cartagena</figcaption>
+              </figure>
+            </div>
           </div>
           <div>
             <p>
@@ -63,8 +87,8 @@ export const TravelingInColombia = () => {
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
-          alt="Image Colombian Project Culture"
+          src="https://la-leyenda.com/ext-images/colombian/traveling-in-colombia/San-Cipriano.jpg"
+          alt="Photo Castillo de San Felipe, Cartagena"
           width="0"
           height="0"
           sizes="100%"

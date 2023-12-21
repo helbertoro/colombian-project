@@ -31,7 +31,7 @@
     @apply font-sans text-secondary uppercase hover:text-secondary;
   }
   .columns-two {
-    @apply flex flex-wrap gap-8 lg:flex-nowrap;
+    @apply flex flex-wrap gap-11 xl:gap-16 lg:flex-nowrap;
   }
   .columns-two > div{
     @apply w-full lg:w-1/2;
@@ -41,6 +41,12 @@
   }
   .btn {
     @apply font-sans;
+  }
+  figure {
+    @apply relative;
+  }
+  figure figcaption {
+    @apply absolute bottom-0 left-0 w-full px-2 py-1 text-xs text-hover-accent bg-black bg-opacity-50 rounded-lg;
   }
 }
 

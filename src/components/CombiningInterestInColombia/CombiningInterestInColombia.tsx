@@ -13,14 +13,17 @@ export const CombiningInterestInColombia = () => {
         <div className="columns-two">
           <div>
             <div>
-              <Image
-                src="https://la-leyenda.com/ext-images/colombian/colombia/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project.jpeg"
-                alt="Image Colombian Project Culture"
-                width="0"
-                height="0"
-                sizes="100%"
-                className="h-auto w-full rounded-lg shadow-lg"
-              />
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/colombia/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project.jpeg"
+                  alt="Photo Bike ride, Coffee Region"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>Bike ride, Coffee Region</figcaption>
+              </figure>
             </div>
           </div>
           <div>
@@ -43,7 +46,7 @@ export const CombiningInterestInColombia = () => {
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://la-leyenda.com/ext-images/colombian/combining-interest/Silvia-market-Cauca.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

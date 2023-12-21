@@ -39,28 +39,36 @@ export const BannerInternal = ({ photos }: BannerInternalProps) => {
       interval={4000}
       transitionTime={2000}
       showStatus={false}
-      renderArrowPrev={(onClickHandler, hasPrev, label) => (
-        <button
-          type="button"
-          onClick={onClickHandler}
-          title={label}
-          className="btn absolute left-4 z-10"
-          style={{ ...arrowStyles }}
-        >
-          <FontAwesomeIcon icon={faChevronLeft} />
-        </button>
-      )}
-      renderArrowNext={(onClickHandler, hasNext, label) => (
-        <button
-          type="button"
-          onClick={onClickHandler}
-          title={label}
-          className="btn absolute right-4 z-10"
-          style={{ ...arrowStyles }}
-        >
-          <FontAwesomeIcon icon={faChevronRight} />
-        </button>
-      )}
+      renderArrowPrev={(onClickHandler, hasPrev, label) => {
+        return (
+          hasPrev && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              className="btn absolute left-4 z-10"
+              style={{ ...arrowStyles }}
+            >
+              <FontAwesomeIcon icon={faChevronLeft} />
+            </button>
+          )
+        );
+      }}
+      renderArrowNext={(onClickHandler, hasNext, label) => {
+        return (
+          hasNext && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              className="btn absolute right-4 z-10"
+              style={{ ...arrowStyles }}
+            >
+              <FontAwesomeIcon icon={faChevronRight} />
+            </button>
+          )
+        );
+      }}
     >
       {renderImages()}
     </Carousel>
