@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const SampleItinerary = () => {
   return (
     <div className="columns-two my-20">
@@ -42,7 +44,19 @@ export const SampleItinerary = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/cycling/Cycling-unpaved-road-Colombia-Andes.jpeg"
+              alt="Unexplored off-road routes"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>Unexplored off-road routes</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

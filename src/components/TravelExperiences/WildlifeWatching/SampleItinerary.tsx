@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const SampleItinerary = () => {
   return (
     <div className="columns-two my-20">
@@ -38,7 +40,19 @@ export const SampleItinerary = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/wildlife-watching/Purple-throated-Woodstar-Hummingbird-Tatama-Montezuma-Western-Andes-Choco-Bird-Colombian-Project-resized-scaled.jpeg"
+              alt="Purple-throated woodstar, Montezuma"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>Purple-throated woodstar, Montezuma</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

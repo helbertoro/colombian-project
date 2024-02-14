@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const SampleItinerary = () => {
   return (
     <div className="columns-two my-20">
@@ -40,7 +42,22 @@ export const SampleItinerary = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/walkstreks/Trek-Frailejon-Berlin-Valley-PNN-Los-Nevados-Coffee-Region-paramo-Central-Andes-Colombia-Colombian-Project.jpeg"
+              alt="Frailejon in páramo: wander through the world’s fastest-evolving ecosystem"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>
+              Frailejon in páramo: wander through the world’s fastest-evolving
+              ecosystem
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

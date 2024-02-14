@@ -1,6 +1,6 @@
 export const SampleItinerary = () => {
   return (
-    <div className="columns-two my-20">
+    <div className="my-20">
       <div>
         <h2>SAMPLE ITINERARY</h2>
         <p>
@@ -59,9 +59,6 @@ export const SampleItinerary = () => {
         <p>
           <b className="text-primary">Day 12:</b> Fly out.
         </p>
-      </div>
-      <div>
-        <div className="h-96 w-full bg-primary">img</div>
       </div>
     </div>
   );

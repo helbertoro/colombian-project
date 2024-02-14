@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Overview = () => {
   return (
     <div className="columns-two my-20">
@@ -39,7 +41,19 @@ export const Overview = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/walkstreks/El-Bosque-descent-via-River-Otun-Canyon-PNN-Los-Nevados-Colombia.jpeg"
+              alt="River otun canyon & descent"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>River otun canyon & descent</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

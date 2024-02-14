@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const SampleItinerary = () => {
   return (
     <div className="columns-two my-20">
@@ -33,7 +35,19 @@ export const SampleItinerary = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/the-lost-city/Lost-City-carved-stone-Sierra-Nevada-Santa-Marta-Trek-Ciudad-Perdida-Colombia-Colombian-Project.jpeg"
+              alt="Carved stone, Lost City"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>Carved stone, Lost City</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

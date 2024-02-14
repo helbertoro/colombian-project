@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Overview = () => {
   return (
     <div className="columns-two my-20">
@@ -30,7 +32,19 @@ export const Overview = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/the-lost-city/Lost-City-side-staircase-Sierra-Nevada-Santa-Marta-Trek-Ciudad-Perdida-Colombia-Colombian-Project.jpeg"
+              alt="Staircase, Lost City"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>Staircase, Lost City</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

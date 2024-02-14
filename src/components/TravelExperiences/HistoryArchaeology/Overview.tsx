@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Overview = () => {
   return (
     <div className="columns-two my-20">
@@ -42,7 +44,21 @@ export const Overview = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/history-archaeology/Doorway-Villa-de-Leyva-heritage-Spanish-colonial-town-history-Boyaca-Colombia-Colombian-Project.jpeg"
+              alt="Spanish colonial town – Villa De Leyva, Boyaca"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>
+              Spanish colonial town – Villa De Leyva, Boyaca
+            </figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

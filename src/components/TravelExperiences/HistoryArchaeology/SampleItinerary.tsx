@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const SampleItinerary = () => {
   return (
     <div className="columns-two my-20">
@@ -39,7 +41,19 @@ export const SampleItinerary = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/history-archaeology/La-Chaquira-carving-canyon-River-Magdalena-San-Agustin-Archaeological-Park-Huila-Colombia.jpeg"
+              alt="La Chaquira, River Magdalena Canyon, Huila"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>La Chaquira, River Magdalena Canyon, Huila</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );

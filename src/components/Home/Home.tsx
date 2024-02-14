@@ -184,7 +184,7 @@ export const Home = () => {
             KEY PARTNERS & AFFILIATIONS
           </h3>
           <Image
-            src="https://la-leyenda.com/ext-images/colombian/partners.jpeg"
+            src="https://la-leyenda.com/ext-images/colombian/partners.png"
             alt="Image Colombian Project Partners"
             width="0"
             height="0"

@@ -25,13 +25,42 @@ export const PioneersSpecialists = () => {
           create a Colombian holiday of a lifetime. To break this down further,
           we’ve listed below some of the key elements that make us ‘different’.
         </p>
-        <div className="flex gap-8">
-          <div>
-            <div className="mb-4 h-96 w-full bg-primary">foto 1</div>
-            <div className="h-96 w-full bg-primary">foto 2</div>
+        <h2 className="mt-8 block text-center">PIONEERS</h2>
+        <div className="flex flex-wrap gap-11 md:gap-16 lg:flex-nowrap">
+          <div className="flex w-full flex-row gap-4 lg:w-4/12 lg:flex-col">
+            <div className="mb-4 w-full">
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/pioneers-specialists/Group-photo-in-Santa-Marta-PHOTO-BY-KARIN-BEUMER-BROWNER.jpeg"
+                  alt="Group photo in Santa Marta, El Dorado Reserve, Sierra Nevada de Santa Marta"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>
+                  Group photo in Santa Marta, El Dorado Reserve, Sierra Nevada
+                  de Santa Marta
+                </figcaption>
+              </figure>
+            </div>
+            <div className="w-full">
+              <figure>
+                <Image
+                  src="https://la-leyenda.com/ext-images/colombian/pioneers-specialists/Santa-Marta-White-fronted-Capuchin-Endemic-primate-Tayrona-Colombia-Colombian-Project.jpeg"
+                  alt="Santa Marta White fronted Capuchin, PNN Tayrona"
+                  width="0"
+                  height="0"
+                  sizes="100%"
+                  className="h-auto w-full rounded-lg shadow-lg"
+                />
+                <figcaption>
+                  Santa Marta White fronted Capuchin, PNN Tayrona
+                </figcaption>
+              </figure>
+            </div>
           </div>
-          <div className="w-9/12">
-            <h2 className="text-center">PIONEERS</h2>
+          <div className="w-full lg:w-9/12">
             <p>
               We’ve always been at the vanguard of product development here in
               Colombia and some of the tours we’ve developed over the years have

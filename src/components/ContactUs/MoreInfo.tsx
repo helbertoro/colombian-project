@@ -4,7 +4,7 @@ import { faBookOpenReader } from "@fortawesome/free-solid-svg-icons";
 
 export const MoreInfo = () => {
   return (
-    <div className="grid grid-cols-1 gap-10 text-center md:grid-cols-3">
+    <div className="mb-10 grid grid-cols-1 gap-10 text-center md:grid-cols-3">
       <div>
         <FontAwesomeIcon
           className="text-tertiary"

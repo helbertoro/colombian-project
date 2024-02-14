@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Overview = () => {
   return (
     <div className="columns-two my-20">
@@ -41,7 +43,19 @@ export const Overview = () => {
         </p>
       </div>
       <div>
-        <div className="h-96 w-full bg-primary">img</div>
+        <div>
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/cycling/Cycling-Colombia.jpeg"
+              alt="MTB for all levels"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>MTB for all levels</figcaption>
+          </figure>
+        </div>
       </div>
     </div>
   );
