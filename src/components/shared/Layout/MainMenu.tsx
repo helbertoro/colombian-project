@@ -8,12 +8,12 @@ export const MainMenu = () => {
   return (
     <div className="bg-base-100">
       <div className="container py-3 md:py-6">
-        <div className="flex justify-between">
+        <div className="flex items-center justify-between">
           <Link href="/">
             <Image
               src="https://la-leyenda.com/ext-images/colombian/tcp-logo.png"
-              width={100}
-              height={56}
+              width={130}
+              height={67}
               alt="Colombian Project Logo"
             />
           </Link>

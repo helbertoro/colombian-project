@@ -17,10 +17,6 @@ export const homeBanner = [
   },
   {
     image:
-      "https://la-leyenda.com/ext-images/colombian/home/banner/family-holidays.jpg",
-  },
-  {
-    image:
       "https://la-leyenda.com/ext-images/colombian/home/banner/lost-city.jpeg",
   },
   {
@@ -131,10 +127,6 @@ export const cyclingBanner = [
 ];
 
 export const familyHolidaysBanner = [
-  {
-    image:
-      "https://la-leyenda.com/ext-images/colombian/travel-experiences/family-holidays/banner/family-holidays.jpg",
-  },
   {
     image:
       "https://la-leyenda.com/ext-images/colombian/travel-experiences/family-holidays/banner/girl.jpg",

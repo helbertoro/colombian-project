@@ -111,16 +111,7 @@ export const Home = () => {
                 <li>
                   <a
                     className="btn btn-primary text-2xl text-accent"
-                    href="https://www.facebook.com/pages/The-Colombian-Project/215566675122275?ref=hl"
-                    target="_blank"
-                  >
-                    <FontAwesomeIcon icon={faFacebook} />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="btn btn-primary text-2xl text-accent"
-                    href=""
+                    href="https://www.instagram.com/colombianproject/?igshid=MTk0NTkyODZkYg%3D%3D"
                     target="_blank"
                   >
                     <FontAwesomeIcon icon={faInstagram} />
@@ -129,7 +120,16 @@ export const Home = () => {
                 <li>
                   <a
                     className="btn btn-primary text-2xl text-accent"
-                    href=""
+                    href="https://www.facebook.com/thecolproject/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="btn btn-primary text-2xl text-accent"
+                    href="https://www.linkedin.com/company/the-colombian-project/?originalSubdomain=co"
                     target="_blank"
                   >
                     <FontAwesomeIcon icon={faLinkedin} />

@@ -32,7 +32,7 @@ export const TheTeam = () => {
             </div>
           ))}
         </div>
-        <h2 className="text-center text-primary">TOUR LEADERS</h2>
+        <h2 className="mt-4 text-center text-primary">TOUR LEADERS</h2>
         <div className="mt-10 grid grid-cols-2 gap-10 md:grid-cols-3 lg:grid-cols-4">
           {tourLeadersContent.map((member, index) => (
             <div key={`tour-leader-${index}`}>

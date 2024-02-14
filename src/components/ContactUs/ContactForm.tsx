@@ -64,12 +64,14 @@ export const ContactForm = () => {
               <option value="Culture & Nature">Culture & Nature</option>
               <option value="Trekking & Walking">Trekking & Walking</option>
               <option value="Wildlife Watching">Wildlife Watching</option>
+              <option value="Birding">Birding</option>
               <option value="History & Archaeology">
                 History & Archaeology
               </option>
               <option value="Cycling">Cycling</option>
-              <option value="The lost City">The lost City</option>
+              <option value="The Lost City">The Lost City</option>
               <option value="Family Holidays">Family Holidays</option>
+              <option value="Educational Tourism">Educational Tourism</option>
             </select>
           </Form.Control>
         </Form.Field>

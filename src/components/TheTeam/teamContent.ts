@@ -2,7 +2,7 @@ export const teamContent = [
   {
     photo: "brian.jpeg",
     name: "BRIAN MURPHY",
-    rol: "Co-Founder",
+    rol: "Founder & CEO",
   },
   {
     photo: "dave-procter.jpeg",
@@ -12,17 +12,17 @@ export const teamContent = [
   {
     photo: "camilo-ortega.jpeg",
     name: "CAMILO ORTEGA",
-    rol: "Product Manager",
+    rol: "Operations Director and Product Manager",
   },
   {
     photo: "laura-jara.jpeg",
     name: "LAURA JARA",
-    rol: "Sales Consultant",
+    rol: "Sales Director",
   },
   {
     photo: "yuliana-martinez.jpeg",
     name: "YULIANA MARTÍNEZ",
-    rol: "Sales & Ops Coordinator",
+    rol: "Sales & Operations Coordinator",
   },
   {
     photo: "claudia-dorado.jpeg",
@@ -30,18 +30,13 @@ export const teamContent = [
     rol: "Operations",
   },
   {
-    photo: "norma-giraldo.jpeg",
-    name: "NORMA GIRALDO",
-    rol: "Financial Administrator",
-  },
-  {
     photo: "lady-lopez.jpeg",
     name: "LADY LÓPEZ",
-    rol: "Sales Support",
+    rol: "Communications & Sales",
   },
   {
-    photo: "juan-diego.jpeg",
-    name: "JUAN DIEGO CASTILLO",
-    rol: "Lead Photographer",
+    photo: "norma-giraldo.jpeg",
+    name: "LIZETTE OTÁLVARO",
+    rol: "Accountancy",
   },
 ];
