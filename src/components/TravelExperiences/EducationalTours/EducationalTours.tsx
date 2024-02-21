@@ -39,10 +39,10 @@ export const EducationalTours = () => {
       title: "Destination Highlights",
       content: DestinationHiglights,
     },
-    gallery: {
-      title: "Gallery",
-      content: Gallery,
-    },
+    // gallery: {
+    //   title: "Gallery",
+    //   content: Gallery,
+    // },
     "travel-time": {
       title: "Travel Time",
       content: TravelTime,

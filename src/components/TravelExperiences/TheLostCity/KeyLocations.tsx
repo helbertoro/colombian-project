@@ -20,9 +20,7 @@ export const KeyLocations = () => {
           </li>
         </ul>
       </div>
-      <div>
-        <div className="h-96 w-full bg-primary">img</div>
-      </div>
+      <div></div>
     </div>
   );
 };

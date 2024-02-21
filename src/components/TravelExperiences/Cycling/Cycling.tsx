@@ -34,10 +34,10 @@ export const Cycling = () => {
       title: "Key Locations",
       content: KeyLocations,
     },
-    gallery: {
-      title: "Gallery",
-      content: Gallery,
-    },
+    // gallery: {
+    //   title: "Gallery",
+    //   content: Gallery,
+    // },
     "travel-time": {
       title: "Travel Time",
       content: TravelTime,

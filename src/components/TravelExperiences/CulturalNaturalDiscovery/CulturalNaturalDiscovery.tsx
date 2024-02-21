@@ -39,10 +39,10 @@ export const CulturalNaturalDiscovery = () => {
       title: "Cultures",
       content: Cultures,
     },
-    gallery: {
-      title: "Gallery",
-      content: Gallery,
-    },
+    // gallery: {
+    //   title: "Gallery",
+    //   content: Gallery,
+    // },
     "travel-time": {
       title: "Travel Time",
       content: TravelTime,
