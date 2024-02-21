@@ -35,7 +35,7 @@ export const teamContent = [
     rol: "Communications & Sales",
   },
   {
-    photo: "norma-giraldo.jpeg",
+    photo: "Lizettte_TCP_Lago_Calima.jpeg",
     name: "LIZETTE OTÁLVARO",
     rol: "Accountancy",
   },

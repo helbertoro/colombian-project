@@ -267,3 +267,10 @@ export const educationalTourismBanner = [
       "https://la-leyenda.com/ext-images/colombian/travel-experiences/educational-tourism/banner/educational-tours-3.jpeg",
   },
 ];
+
+export const theTeamBanner = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/about/team/TCP_Team.jpeg",
+  },
+];

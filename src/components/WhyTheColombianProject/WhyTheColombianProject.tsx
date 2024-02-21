@@ -10,9 +10,9 @@ export const WhyTheColombianProject = () => {
         <BannerInternal photos={whyColombianProjectBanner} />
       </div>
       <div className="container my-20">
+        <h1>WHY THE COLOMBIAN PROJECT</h1>
         <div className="columns-two">
           <div>
-            <h1>WHY THE COLOMBIAN PROJECT</h1>
             <h2>FOR COLOMBIA – WHY WE DO WHAT WE DO</h2>
             <p>
               For us Colombia has always come first. Our company was founded not
@@ -35,12 +35,34 @@ export const WhyTheColombianProject = () => {
             </p>
           </div>
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <figure>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/why/Cloud-forest-stream-La-Patasola-Reserve-Coffee-Region-Colombia.jpeg"
+                alt="Cloud forest stream, La Patasola Reserve, Coffee Region"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="mb-5 h-auto w-full rounded-lg shadow-lg"
+              />
+              <figcaption>
+                Cloud forest stream, La Patasola Reserve, Coffee Region
+              </figcaption>
+            </figure>
           </div>
         </div>
         <div className="columns-two">
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <figure>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/why/Hacienda-Suescun-Sogamoso-Tibasosa-Boyaca-Colombia-Eastern-Andes-Colombian-Project-1.jpeg"
+                alt="Hacienda Suescun, Sogamoso."
+                width="0"
+                height="0"
+                sizes="100%"
+                className="mb-5 h-auto w-full rounded-lg shadow-lg"
+              />
+              <figcaption>Hacienda Suescun, Sogamoso.</figcaption>
+            </figure>
           </div>
           <div>
             <h2>SPECIALISTS</h2>
@@ -84,12 +106,36 @@ export const WhyTheColombianProject = () => {
             </p>
           </div>
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <figure>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/why/Group-history-archaeology-Cerro-Azul-Guaviare-Amazon-Colombia-Colombian-Project-1.jpeg"
+                alt="History & Archaeology group, Cerro Azul, Guaviare, Amazon"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="mb-5 h-auto w-full rounded-lg shadow-lg"
+              />
+              <figcaption>
+                History & Archaeology group, Cerro Azul, Guaviare, Amazon
+              </figcaption>
+            </figure>
           </div>
         </div>
         <div className="columns-two">
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <figure>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/why/tarapoto.jpeg"
+                alt="Birding group, PNN Los Nevados, Coffee Region"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="mb-5 h-auto w-full rounded-lg shadow-lg"
+              />
+              <figcaption>
+                Birding group, PNN Los Nevados, Coffee Region
+              </figcaption>
+            </figure>
           </div>
           <div>
             <h3>COLOMBO – BRITISH</h3>
@@ -139,7 +185,19 @@ export const WhyTheColombianProject = () => {
             </p>
           </div>
           <div>
-            <div className="h-96 w-full bg-primary">img</div>
+            <figure>
+              <Image
+                src="https://la-leyenda.com/ext-images/colombian/why/Capybara-Wildlife-watching-Hato-La-Aurora-Juan-Solito-Llanos-Casanare-Colombia-Colombian-Project-2.jpeg"
+                alt="Capybara, Hato La Aurora, Llanos (Eastern Plains)"
+                width="0"
+                height="0"
+                sizes="100%"
+                className="mb-5 h-auto w-full rounded-lg shadow-lg"
+              />
+              <figcaption>
+                Capybara, Hato La Aurora, Llanos (Eastern Plains)
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>

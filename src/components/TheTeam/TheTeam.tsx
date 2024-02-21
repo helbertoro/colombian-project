@@ -3,10 +3,14 @@ import { Layout } from "@/components/shared";
 import { teamContent } from "./teamContent";
 import { tourLeadersContent } from "./tourLeadersContent";
 import { BannerInternal } from "@/components/shared";
+import { theTeamBanner } from "@/utils/banners";
 
 export const TheTeam = () => {
   return (
     <Layout>
+      <div id="banner">
+        <BannerInternal photos={theTeamBanner} />
+      </div>
       <div className="container my-20">
         <h1>OUR TEAM</h1>
         <p>
