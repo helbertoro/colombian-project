@@ -7,6 +7,7 @@ import {
 } from "@/components/shared";
 import { Itinerary } from "./Itinerary";
 import { Regions } from "./Regions";
+import { Tours } from "./Tours";
 import { birdingBanner } from "@/utils/banners";
 
 export const Birding = () => {
@@ -130,7 +131,7 @@ export const Birding = () => {
       </div>
       <div id="content-experiences" className="container my-20">
         <h2 className="text-center">OUR BIRDING EXPERIENCES</h2>
-        <p>experiences</p>
+        <Tours />
       </div>
       <div id="banner">
         <Image
