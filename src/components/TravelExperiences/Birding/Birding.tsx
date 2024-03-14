@@ -74,7 +74,7 @@ export const Birding = () => {
           of which are quickly becoming havens for birders, full of stunning
           jewels that are essential ticks on any life list.
         </p>
-        <div className="w-1/2">
+        <div className="mx-auto mb-0 mt-10 sm:w-1/2">
           <figure>
             <Image
               src="https://la-leyenda.com/ext-images/colombian/birding/Aves-319.jpeg"

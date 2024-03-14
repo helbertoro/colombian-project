@@ -55,7 +55,7 @@ export const Regions = () => {
               onClick={() => setActiveItem(index)}
             >
               <div className="mb-1">
-                <figure className="p-4">
+                <figure className="shrink-0 p-4">
                   <Image
                     src={`https://la-leyenda.com/ext-images/colombian/birding/regions/${section.image}`}
                     alt={section.title}
