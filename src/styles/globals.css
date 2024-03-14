@@ -24,6 +24,15 @@
   ul {
     @apply font-serif;
   }
+  ol {
+    @apply p-6;
+  }
+  ol li {
+    @apply font-serif list-decimal
+  }
+  ol li::marker {
+    @apply text-primary
+  } 
 }
 
 @layer components {

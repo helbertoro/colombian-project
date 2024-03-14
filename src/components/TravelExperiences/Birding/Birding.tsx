@@ -1,6 +1,12 @@
 import Image from "next/image";
-import { Layout } from "@/components/shared";
-import { BannerInternal } from "@/components/shared";
+import {
+  Layout,
+  BannerInternal,
+  KeyPartners,
+  Mentioned,
+} from "@/components/shared";
+import { Itinerary } from "./Itinerary";
+import { Regions } from "./Regions";
 import { birdingBanner } from "@/utils/banners";
 
 export const Birding = () => {
@@ -57,7 +63,7 @@ export const Birding = () => {
         </p>
       </div>
       <div id="content-tabs" className="container my-20">
-        Tabs
+        <Regions />
       </div>
       <div id="content-itinerary" className="container my-20">
         <h2 className="text-center">ITINERARIES - WHAT YOU NEED TO KNOW</h2>
@@ -68,6 +74,21 @@ export const Birding = () => {
           of which are quickly becoming havens for birders, full of stunning
           jewels that are essential ticks on any life list.
         </p>
+        <div className="w-1/2">
+          <figure>
+            <Image
+              src="https://la-leyenda.com/ext-images/colombian/birding/Aves-319.jpeg"
+              alt="Crimson-mantled Woodpecker"
+              width="0"
+              height="0"
+              sizes="100%"
+              className="h-auto w-full rounded-lg shadow-lg"
+            />
+            <figcaption>
+              Crimson-mantled Woodpecker. Photo: Juan Diego Castillo
+            </figcaption>
+          </figure>
+        </div>
         <div className="mt-14 flex flex-wrap gap-y-6">
           <div className="w-full px-8 text-center md:w-4/12">
             <h3 className="mb-4">A SMALL SELECTION</h3>
@@ -105,7 +126,7 @@ export const Birding = () => {
       </div>
       <div id="content-quickGuide" className="container my-20">
         <h2 className="text-center">A QUICK GUIDE TO OUR ITINERARIES</h2>
-        <p>Tabs</p>
+        <Itinerary />
       </div>
       <div id="content-experiences" className="container my-20">
         <h2 className="text-center">OUR BIRDING EXPERIENCES</h2>
@@ -113,13 +134,19 @@ export const Birding = () => {
       </div>
       <div id="banner">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://la-leyenda.com/ext-images/colombian/sub-banner/birding-bottom.jpeg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"
           sizes="100%"
           className="h-auto w-full"
         />
+      </div>
+      <div>
+        <KeyPartners />
+      </div>
+      <div className="bg-tertiary">
+        <Mentioned />
       </div>
     </Layout>
   );

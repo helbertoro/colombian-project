@@ -39,6 +39,7 @@ export const BannerInternal = ({ photos }: BannerInternalProps) => {
       interval={4000}
       transitionTime={2000}
       showStatus={false}
+      showThumbs={false}
       renderArrowPrev={(onClickHandler, hasPrev, label) => {
         return (
           hasPrev && (
