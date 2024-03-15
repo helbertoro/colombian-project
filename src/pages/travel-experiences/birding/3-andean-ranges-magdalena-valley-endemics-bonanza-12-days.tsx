@@ -1,5 +1,5 @@
-import { AndeanRanges } from "@/components/TravelExperiences/Birding/Experiences/AndeanRanges";
+import { AndeanIntern } from "@/components/TravelExperiences/Birding/Experiences/AndeanIntern";
 
 export default function Index() {
-  return <AndeanRanges />;
+  return <AndeanIntern />;
 }

@@ -1,5 +1,5 @@
-import { Eastern } from "@/components/TravelExperiences/Birding/Experiences/Eastern";
+import { Western } from "@/components/TravelExperiences/Birding/Experiences/Western";
 
 export default function Index() {
-  return <Eastern />;
+  return <Western />;
 }
