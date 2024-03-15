@@ -184,4 +184,30 @@ export const WhyBookContent: WhyBookContent = {
         "We’ll always aim to include infrastructure and hotels that are family-friendly or that offer a unique concept that enrich the experience.",
     },
   ],
+  Birding: [
+    {
+      title: "COLOMBIA’S BIRDS",
+      content:
+        "We know Colombia’s birds and localities intimately, ensuring a high-quality birding experience, wherever the tour takes you.",
+    },
+    {
+      title: "QUALITY LEADERS",
+      content:
+        "Our birding leaders are among Colombia’s best and most experienced – all have a mixture of great personality, eyes and ears for catching all those targets!",
+    },
+    {
+      title: "ONLY SMALL GROUPS",
+      content:
+        "We focus on small group travel to ensure the best viewing opportunities possible and more personalised birding experience.",
+    },
+    {
+      title: "OPERATIONAL EXCELLENCE",
+      content:
+        "We have vast experience in operating tours in Colombia across a range of niches – those small details that make all the difference come as standard.",
+    },
+    {
+      title: "PRICES",
+      content: "Always competitive and we cut no corners.",
+    },
+  ],
 };
