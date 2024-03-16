@@ -88,7 +88,31 @@ export const whyColombianProjectBanner = [
 export const birdingBanner = [
   {
     image:
-      "https://la-leyenda.com/ext-images/colombian/home/banner/birding.jpeg",
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Birding/Gold-ringed-Tanager.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Birding/Andean-Cock-of-the-rock-Jardin-Western-Andes-Birding-Colombia-Anderson-Munoz.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Birding/Barred-Fruiteater-Central-Andes-Coffee-Region-Colombia-Birding-Fabio-Arias.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Birding/Lanceolated-Monklet-Anchicaya-Western-Andes-Pacific-Colombia-Birding-Colombian-Project-1.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Birding/Santa-Marta-Parakeet.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Birding/White-tailed-Starfrontlet-El-Dorado-Reserve-Sierra-Nevada-Santa-Marta-Colombia-Birding-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Birding/Buffy-Helmetcrest-Oxypogon-stubelli-endemic-NNP-Los-Nevados-named-1.jpeg",
   },
 ];
 
@@ -272,5 +296,183 @@ export const theTeamBanner = [
   {
     image:
       "https://la-leyenda.com/ext-images/colombian/about/team/TCP_Team.jpeg",
+  },
+];
+
+export const birdingAnden = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Andean/Munchique-Wood-Wren-E.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Andean/Coppery-bellied-Puffleg-Eastern-Andes-Colombia-Bird-The-Colombian-Project-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Andean/Dusky-Starfrontlet-Western-Andes-Colombia-Birding-Anderson-Muñoz.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Andean/Tooth-billed-Hummingbird-JO-2.jpeg",
+  },
+];
+
+export const birdingNorthern = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Northern/Santa-Marta-Screech-Owl-E.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Northern/Blue-naped-Chlorophonia.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Northern/Santa-Marta-Parakeet-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Northern/White-tailed-Starfrontlet-E.jpeg",
+  },
+];
+
+export const birdingEastern = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Eastern/Sword-billed-Hummingbird.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Eastern/Cundinamarca-Antpitta-Grallaria-kaestneri-endemic-Guayabetal.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Eastern/Brown-breasted-Parakeet-Pyrrhura-calliptera-endemic-Chingaza.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Eastern/Coppery-bellied-Puffleg-Eastern-Andes-Colombia-Bird-The-Colombian-Project-2.jpeg",
+  },
+];
+
+export const birdingAndeanRanges = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/AndeanRanges/Black-Inca-E.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/AndeanRanges/Apical-Flycatcher-Endemic-Western-Andes-Colombia-Bird-The-Colombian-Project-1-named.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/AndeanRanges/Pale-headed-Jacamar-AP-1.jpeg",
+  },
+];
+
+export const birdingMagdalena = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Magdalena/Indigo-capped-Hummingbird-Fabio-Arias-endemic-birding-Colombia-Magdalena-Valley.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Magdalena/Apolinars-Wren_Cistothorus-apolinari-endemic-NNP-Sumapaz.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Magdalena/White-mantled-Barbet-Juan-Diego-Castillo.jpeg",
+  },
+];
+
+export const birdingSouthern = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Southern/Violet-fronted-Brilliant-Upper-Magdalena-Pitalito-Road-Colombia-Bird-Colombian-Project-3.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Southern/Black-streaked-Puffbird-Amazon-Foothills-Mocoa-Putumayo-Colombia-Bird-Colombian-Project-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Southern/White-rimmed-Brush-Finch-Amazon-Foothills-Trampolin-Road-Putumayo-Colombia-Bird-Colombian-Project.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Southern/Yellow-bellied-Dacnis-Amazon-Foothills-Churumbelos-Colombia-Bird-Colombian-Project-1.jpeg",
+  },
+];
+
+export const birdingAndesIntern = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/AndesIntern/Rainbow-bearded-Thornbill-Juan-Diego-Castillo-Bird-Photo-Colombia.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/AndesIntern/Grey-breasted-Mountain-Toucan-Central-Andes-Colombia-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/AndesIntern/Beautiful-Woodpecker-E-1.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/AndesIntern/Black-and-gold-Tanager-E.jpeg",
+  },
+];
+
+export const birdingMitu = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Mitu/Amazonian-Umbrellabird.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Mitu/Blue-Crowned-Trogon-Amazon-Foothills-Churumbelos-Colombia-Bird-Colombian-Project-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Mitu/Green-backed-Trogon.jpeg",
+  },
+];
+
+export const birdingWestern = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Western/Torrent-Duck-Merganetta-armata-FFS-Otun-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Western/Black-backed-Bush-Tanager-Central-Andes-Birding-Colombia-Fabio-Arias.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Western/Bogota-Rail-Rallus-semiplumbeus-endemic-La-Florida-2.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Western/Undulated-Antpitta-Rio-Blanco-Birding-Central-Andes-Colombia-Anderson-Munoz.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Western/Yellow-eared-Parrot_Ognorhynchus-icterotis-Central-Andes-named-2.jpeg",
+  },
+];
+
+export const birdingInirida = [
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Inirida/Collared-Puffbird-CE.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Inirida/hoatzin.jpeg",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/birding/banner/Inirida/Scarlet-Macaw-Guaviare-Amazon-Colombia-1.jpeg",
   },
 ];

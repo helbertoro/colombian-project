@@ -7,7 +7,7 @@ import {
   KeyPartners,
   Mentioned,
 } from "@/components/shared";
-import { birdingBanner } from "@/utils/banners";
+import { birdingNorthern } from "@/utils/banners";
 import { Tabs } from "../Tabs/Tabs";
 import {
   Overview,
@@ -55,7 +55,7 @@ export const Northern = () => {
   return (
     <Layout>
       <div id="banner">
-        <BannerInternal photos={birdingBanner} />
+        <BannerInternal photos={birdingNorthern} />
       </div>
       <div className="container my-20">
         <Tabs
