@@ -40,7 +40,7 @@ export const MobileMenu = () => {
                     </li>
                     <li>
                       <Link href="/combining-interest-in-colombia">
-                        combining interest in colombia
+                        combining interests in colombia
                       </Link>
                     </li>
                   </ul>
@@ -73,12 +73,12 @@ export const MobileMenu = () => {
                   <ul>
                     <li>
                       <Link href="/travel-experiences/cultural-natural-discovery">
-                        cultural natural discovery
+                        Culture & nature
                       </Link>
                     </li>
                     <li>
                       <Link href="/travel-experiences/walkstreks">
-                        walkstreks
+                        trekking & walking
                       </Link>
                     </li>
                     <li>
@@ -91,7 +91,7 @@ export const MobileMenu = () => {
                     </li>
                     <li>
                       <Link href="/travel-experiences/history-archaeology">
-                        history archaeology
+                        history & archaeology
                       </Link>
                     </li>
                     <li>
@@ -121,12 +121,12 @@ export const MobileMenu = () => {
                   <ul>
                     <li>
                       <Link href="/pioneers-specialists">
-                        pioneers specialists
+                        pioneers & specialists
                       </Link>
                     </li>
                     <li>
                       <Link href="/why-the-colombian-project">
-                        why the colombian project
+                        why the colombian project?
                       </Link>
                     </li>
                     <li>

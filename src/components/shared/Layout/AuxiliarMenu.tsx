@@ -21,7 +21,7 @@ export const AuxiliarMenu = () => {
                 </li>
                 <li>
                   <Link href="/combining-interest-in-colombia">
-                    combining interest in colombia
+                    combining interests in colombia
                   </Link>
                 </li>
               </ul>
