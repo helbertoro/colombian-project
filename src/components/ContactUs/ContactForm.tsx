@@ -13,9 +13,12 @@ export const ContactForm = () => {
 
     setIsLoading(true);
     const form = event.currentTarget;
-    const inputs = form.querySelectorAll("input, select, textarea");
+    const inputs = Array.from(
+      form.querySelectorAll("input, select, textarea"),
+    ) as HTMLInputElement[];
 
-    const data = {};
+    const data: { [key: string]: string } = {};
+
     inputs.forEach((input) => {
       data[input.name] = input.value;
     });
