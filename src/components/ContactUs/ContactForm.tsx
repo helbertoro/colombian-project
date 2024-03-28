@@ -30,10 +30,8 @@ export const ContactForm = () => {
       },
       body: JSON.stringify(data),
     })
-      .then((response) => {
-        if (response.ok) {
-          setIsSubmitted(true);
-        }
+      .then(() => {
+        setIsSubmitted(true);
       })
       .catch((error) => {
         console.log(error);
