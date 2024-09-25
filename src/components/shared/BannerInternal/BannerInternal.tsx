@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Carousel } from "react-responsive-carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,7 +9,7 @@ import {
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 interface BannerInternalProps {
-  photos: { image: string }[];
+  photos: { image: string; legend?: string; link?: string; section?: string }[];
 }
 
 export const BannerInternal = ({ photos }: BannerInternalProps) => {
@@ -27,6 +28,18 @@ export const BannerInternal = ({ photos }: BannerInternalProps) => {
           sizes="100%"
           className="h-auto w-full"
         />
+        {photo.legend && (
+          <div className="absolute bottom-0 left-0 right-0 z-50 hidden pb-12 text-center sm:block">
+            <div className="inline-block rounded-lg bg-black bg-opacity-40 p-2">
+              <b className="text-2xl text-accent md:text-3xl">{photo.legend}</b>
+              <p className="mt-2">
+                <a className="btn btn-secondary btn-sm" href={photo.link}>
+                  {photo.section}
+                </a>
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     ));
   };

@@ -1,31 +1,54 @@
+import { link } from "fs";
+
 export const homeBanner = [
   {
     image:
-      "https://la-leyenda.com/ext-images/colombian/home/banner/birding.jpeg",
-  },
-  {
-    image:
-      "https://la-leyenda.com/ext-images/colombian/home/banner/archeology.jpeg",
-  },
-  {
-    image:
       "https://la-leyenda.com/ext-images/colombian/home/banner/culture-nature.jpg",
-  },
-  {
-    image:
-      "https://la-leyenda.com/ext-images/colombian/home/banner/cycling.jpeg",
-  },
-  {
-    image:
-      "https://la-leyenda.com/ext-images/colombian/home/banner/lost-city.jpeg",
+    legend: "Understand Colombia's heart.",
+    section: "Cultural & Natural",
+    link: "/travel-experiences/cultural-natural",
   },
   {
     image:
       "https://la-leyenda.com/ext-images/colombian/home/banner/walks-treks.jpg",
+    legend: "Andes, Volcanoes and Trails.",
+    section: "Walks & Treks",
+    link: "/travel-experiences/walkstreks",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/home/banner/archeology.jpeg",
+    legend: "Unearth Ancient Colombia.",
+    section: "History & Archaeology",
+    link: "/travel-experiences/history-archaeology",
   },
   {
     image:
       "https://la-leyenda.com/ext-images/colombian/home/banner/wildlife.jpeg",
+    legend: "Behold Colombia's magnificent wildlife.",
+    section: "Wildlife Watching",
+    link: "/travel-experiences/wildlife-watching",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/home/banner/lost-city.jpeg",
+    legend: "Explore mystical mountains.",
+    section: "The Lost City",
+    link: "/travel-experiences/the-lost-city",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/home/banner/cycling.jpeg",
+    legend: "Ride Colombia's Legendary Roads.",
+    section: "Cycling",
+    link: "/travel-experiences/cycling",
+  },
+  {
+    image:
+      "https://la-leyenda.com/ext-images/colombian/home/banner/birding.jpeg",
+    legend: "Specialist Birding Holidays.",
+    section: "Birding",
+    link: "/travel-experiences/birding",
   },
 ];
 
