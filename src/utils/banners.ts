@@ -318,7 +318,7 @@ export const educationalTourismBanner = [
 export const theTeamBanner = [
   {
     image:
-      "https://la-leyenda.com/ext-images/colombian/about/team/TCP_Team.jpeg",
+      "https://la-leyenda.com/ext-images/colombian/home/banner/walks-treks.jpg",
   },
 ];
 
