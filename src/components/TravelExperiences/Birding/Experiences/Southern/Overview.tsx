@@ -81,7 +81,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Blue-Crowned-Trogon-Amazon-Foothills-Churumbelos-Colombia-Bird-Colombian-Project.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305914/Blue-Crowned-Trogon-Amazon-Foothills-Churumbelos-Colombia-Bird-Colombian-Project_sc336j.jpg"
               alt="Blue-crowned Trogon"
               width="0"
               height="0"

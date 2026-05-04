@@ -39,7 +39,7 @@ export const SampleItinerary = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/cultural-natural-discovery/Zipaquira-Salt-Cathedral-chapel-tour-Bogota-Colombia.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305886/Zipaquira-Salt-Cathedral-chapel-tour-Bogota-Colombia_ktgpf7.jpg"
               alt="Zipaquira: a subterranean marvel"
               width="0"
               height="0"

@@ -7,7 +7,7 @@ export const KeyPartners = () => {
         KEY PARTNERS & AFFILIATIONS
       </h3>
       <Image
-        src="https://la-leyenda.com/ext-images/colombian/partners.png"
+        src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305904/partners_dal5a6.png"
         alt="Image Colombian Project Partners"
         width="0"
         height="0"

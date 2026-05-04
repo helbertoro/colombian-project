@@ -46,7 +46,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/cycling/Cycling-Colombia.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305904/Cycling-Colombia_p1uuao.jpg"
               alt="MTB for all levels"
               width="0"
               height="0"

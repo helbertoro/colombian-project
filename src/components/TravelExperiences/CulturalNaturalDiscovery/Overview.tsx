@@ -48,7 +48,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/colombia/Guambiano-lady-market-Silvia-Cauca-Colombia-Culture-1.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305943/Guambiano-lady-market-Silvia-Cauca-Colombia-Culture-1_pcfgfw.jpg"
               alt="Photo Misak / Guambiano woman, Silvia market, Cauca"
               width="0"
               height="0"

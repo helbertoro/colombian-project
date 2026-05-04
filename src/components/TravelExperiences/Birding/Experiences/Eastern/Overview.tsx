@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { cloudinaryImageUrl } from "@/utils/cloudinaryImageUrl";
 
 export const Overview = () => {
   const planDetails = [
@@ -76,7 +77,9 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/White-eared-Jacamar-Galbacyrhynchus-leucotis-Playa-Güio-Reserve.jpeg"
+              src={cloudinaryImageUrl(
+                "White-eared-Jacamar-Galbacyrhynchus-leucotis-Playa-Güio-Reserve.jpeg",
+              )}
               alt="White-eared Jacamar. Photo: Juan Diego Castillo"
               width="0"
               height="0"

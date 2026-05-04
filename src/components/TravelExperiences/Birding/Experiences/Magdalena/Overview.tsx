@@ -88,7 +88,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Bogota-Rail-Rallus-semiplumbeus-endemic-La-Florida.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305910/Bogota-Rail-Rallus-semiplumbeus-endemic-La-Florida_hjtgwj.jpg"
               alt="Bogota Rail (E) Photo: Alejandro Pinto"
               width="0"
               height="0"

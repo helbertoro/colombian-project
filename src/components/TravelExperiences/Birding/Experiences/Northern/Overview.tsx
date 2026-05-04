@@ -84,7 +84,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Santa-Marta-Brush-Finch-E.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305940/Santa-Marta-Brush-Finch-E_sseblr.jpg"
               alt="Santa Marta Brush-Finch (E). Juan Diego Castillo"
               width="0"
               height="0"

@@ -46,7 +46,7 @@ export const Pacific = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/regions/big/pacific.png"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305910/pacific_frxpeq.png"
               alt="Pacific ecoregion - Colombia birding sites"
               width="0"
               height="0"

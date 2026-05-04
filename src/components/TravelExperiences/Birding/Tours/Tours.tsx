@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { cloudinaryImageUrl } from "@/utils/cloudinaryImageUrl";
 
 export const Tours = () => {
   const content = [
@@ -77,7 +78,9 @@ export const Tours = () => {
           <Link href={item.link}>
             <div className="relative">
               <Image
-                src={`https://la-leyenda.com/ext-images/colombian/birding/regions/tours/${item.image}`}
+                src={cloudinaryImageUrl(item.image, {
+                  assetFolderIncludes: "birding/regions/tours",
+                })}
                 alt={item.title}
                 width="0"
                 height="0"

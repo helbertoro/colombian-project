@@ -46,7 +46,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/wildlife-watching/Lookout-tower-Cuchilla-San-Lorenzo-El-Dorado-Sierra-Nevada-Santa-Marta-El-Dorado-Reserve-Colombia-Colombian-Project.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305898/Lookout-tower-Cuchilla-San-Lorenzo-El-Dorado-Sierra-Nevada-Santa-Marta-El-Dorado-Reserve-Colombia-Colombian-Project_fpujoq.jpg"
               alt="Observation tower, Sierra Nevada De Santa Marta"
               width="0"
               height="0"

@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'la-leyenda.com',
+        hostname: 'res.cloudinary.com',
       },
     ],
   },

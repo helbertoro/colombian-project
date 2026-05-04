@@ -47,7 +47,7 @@ export const SampleItinerary = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/cycling/Cycling-unpaved-road-Colombia-Andes.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305903/Cycling-unpaved-road-Colombia-Andes_fomhoa.jpg"
               alt="Unexplored off-road routes"
               width="0"
               height="0"

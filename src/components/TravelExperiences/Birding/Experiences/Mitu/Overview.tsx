@@ -49,7 +49,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Guianan-Cock-of-The-Rock-Guiana-Shield-Serrania-La-Lindosa-Colombia-Bird-Colombian-Project-2.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305905/Guianan-Cock-of-The-Rock-Guiana-Shield-Serrania-La-Lindosa-Colombia-Bird-Colombian-Project-2_aj0vcc.jpg"
               alt="Guianan Cock-of-The-Rock"
               width="0"
               height="0"

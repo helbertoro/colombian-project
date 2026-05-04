@@ -78,7 +78,7 @@ export const Birding = () => {
         <div className="mx-auto mb-0 mt-10 sm:w-1/2">
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Aves-319.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305905/Aves-319_huxlwr.jpg"
               alt="Crimson-mantled Woodpecker"
               width="0"
               height="0"
@@ -135,7 +135,7 @@ export const Birding = () => {
       </div>
       <div id="banner">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/sub-banner/birding-bottom.jpeg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305957/birding-bottom_fdshhy.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

@@ -43,7 +43,7 @@ export const Amazonas = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/regions/big/amazonas.png"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305910/amazonas_uaaqof.png"
               alt="Amazonas ecoregion - Colombia birding sites"
               width="0"
               height="0"

@@ -33,7 +33,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/family-holidays/family.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305905/family_mrjt8p.jpg"
               alt="Family Holidays"
               width="0"
               height="0"

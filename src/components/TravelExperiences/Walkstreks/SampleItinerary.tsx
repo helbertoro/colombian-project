@@ -45,7 +45,7 @@ export const SampleItinerary = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/walkstreks/Trek-Frailejon-Berlin-Valley-PNN-Los-Nevados-Coffee-Region-paramo-Central-Andes-Colombia-Colombian-Project.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305897/Trek-Frailejon-Berlin-Valley-PNN-Los-Nevados-Coffee-Region-paramo-Central-Andes-Colombia-Colombian-Project_a3fckb.jpg"
               alt="Frailejon in páramo: wander through the world’s fastest-evolving ecosystem"
               width="0"
               height="0"

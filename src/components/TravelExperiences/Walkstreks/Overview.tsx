@@ -44,7 +44,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/walkstreks/El-Bosque-descent-via-River-Otun-Canyon-PNN-Los-Nevados-Colombia.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305898/El-Bosque-descent-via-River-Otun-Canyon-PNN-Los-Nevados-Colombia_jhlrcn.jpg"
               alt="River otun canyon & descent"
               width="0"
               height="0"

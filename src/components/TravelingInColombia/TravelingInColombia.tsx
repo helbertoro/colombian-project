@@ -37,7 +37,7 @@ export const TravelingInColombia = () => {
             <div className="w-full">
               <figure>
                 <Image
-                  src="https://la-leyenda.com/ext-images/colombian/traveling-in-colombia/Spanish-colonial-architecture.jpg"
+                  src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305899/Spanish-colonial-architecture_gjh0ik.jpg"
                   alt="Photo Colonial arquitecture, Cartagena"
                   width="0"
                   height="0"
@@ -54,7 +54,7 @@ export const TravelingInColombia = () => {
             <div className="w-full">
               <figure>
                 <Image
-                  src="https://la-leyenda.com/ext-images/colombian/traveling-in-colombia/Cartagena-group.jpg"
+                  src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305900/Cartagena-group_ws76ng.jpg"
                   alt="Photo Castillo de San Felipe, Cartagena"
                   width="0"
                   height="0"
@@ -87,7 +87,7 @@ export const TravelingInColombia = () => {
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/traveling-in-colombia/San-Cipriano.jpg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305900/San-Cipriano_hnsuih.jpg"
           alt="Photo Castillo de San Felipe, Cartagena"
           width="0"
           height="0"

@@ -11,7 +11,7 @@ export const MainMenu = () => {
         <div className="flex items-center justify-between">
           <Link href="/">
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/tcp-logo.png"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305952/tcp-logo_bkyd3d.png"
               width={130}
               height={67}
               alt="Colombian Project Logo"

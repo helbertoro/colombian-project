@@ -4,6 +4,7 @@ import { teamContent } from "./teamContent";
 import { tourLeadersContent } from "./tourLeadersContent";
 import { BannerInternal } from "@/components/shared";
 import { theTeamBanner } from "@/utils/banners";
+import { cloudinaryImageUrl } from "@/utils/cloudinaryImageUrl";
 
 export const TheTeam = () => {
   return (
@@ -24,7 +25,9 @@ export const TheTeam = () => {
           {teamContent.map((member, index) => (
             <div key={`team-member-${index}`}>
               <Image
-                src={`https://la-leyenda.com/ext-images/colombian/about/team/${member.photo}`}
+                src={cloudinaryImageUrl(member.photo, {
+                  assetFolderIncludes: "about/team",
+                })}
                 alt="Image Colombian Project Culture"
                 width="0"
                 height="0"
@@ -41,7 +44,9 @@ export const TheTeam = () => {
           {tourLeadersContent.map((member, index) => (
             <div key={`tour-leader-${index}`}>
               <Image
-                src={`https://la-leyenda.com/ext-images/colombian/about/leaders/${member.photo}`}
+                src={cloudinaryImageUrl(member.photo, {
+                  assetFolderIncludes: "about/leaders",
+                })}
                 alt="Image Colombian Project Culture"
                 width="0"
                 height="0"
@@ -56,7 +61,7 @@ export const TheTeam = () => {
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305945/sub_ts93tk.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

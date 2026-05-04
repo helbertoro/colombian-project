@@ -80,7 +80,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Crescent-faced-Antpitta-Central-Andes-Coffee-Region-BIrding-Colombia-Fabio-Arias.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305939/Crescent-faced-Antpitta-Central-Andes-Coffee-Region-BIrding-Colombia-Fabio-Arias_zx7gex.jpg"
               alt="Crescent-faced Antpitta. Photo: Fabio Arias"
               width="0"
               height="0"

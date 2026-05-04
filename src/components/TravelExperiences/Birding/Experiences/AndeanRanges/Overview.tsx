@@ -120,7 +120,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Magdalena-Antbird-Rio-Claro-endemic-Colombia-Alejandro-Pinto.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305908/Magdalena-Antbird-Rio-Claro-endemic-Colombia-Alejandro-Pinto_vdhdlj.jpg"
               alt="Magdalena Antbird (E). Photo: Alejandro Pinto"
               width="0"
               height="0"

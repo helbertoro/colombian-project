@@ -31,7 +31,7 @@ export const PioneersSpecialists = () => {
             <div className="mb-4 w-full">
               <figure>
                 <Image
-                  src="https://la-leyenda.com/ext-images/colombian/pioneers-specialists/Group-photo-in-Santa-Marta-PHOTO-BY-KARIN-BEUMER-BROWNER.jpeg"
+                  src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305952/Group-photo-in-Santa-Marta-PHOTO-BY-KARIN-BEUMER-BROWNER_bkktlj.jpg"
                   alt="Group photo in Santa Marta, El Dorado Reserve, Sierra Nevada de Santa Marta"
                   width="0"
                   height="0"
@@ -47,7 +47,7 @@ export const PioneersSpecialists = () => {
             <div className="w-full">
               <figure>
                 <Image
-                  src="https://la-leyenda.com/ext-images/colombian/pioneers-specialists/Santa-Marta-White-fronted-Capuchin-Endemic-primate-Tayrona-Colombia-Colombian-Project.jpeg"
+                  src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305952/Santa-Marta-White-fronted-Capuchin-Endemic-primate-Tayrona-Colombia-Colombian-Project_ybidsv.jpg"
                   alt="Santa Marta White fronted Capuchin, PNN Tayrona"
                   width="0"
                   height="0"
@@ -103,7 +103,7 @@ export const PioneersSpecialists = () => {
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305945/sub_ts93tk.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

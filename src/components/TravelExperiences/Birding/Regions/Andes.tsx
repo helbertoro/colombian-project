@@ -61,7 +61,7 @@ export const Andes = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/regions/big/andes.png"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305910/andes_eyquxd.png"
               alt="Andes ecoregion - Colombia birding sites"
               width="0"
               height="0"

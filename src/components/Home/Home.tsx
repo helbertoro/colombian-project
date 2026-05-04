@@ -11,6 +11,7 @@ import {
 import { BannerInternal } from "@/components/shared";
 import { homeBanner } from "@/utils/banners";
 import { travelLinks } from "./travelLinks";
+import { cloudinaryImageUrl } from "@/utils/cloudinaryImageUrl";
 
 export const Home = () => {
   return (
@@ -151,7 +152,9 @@ export const Home = () => {
                 <Link key={`experience-${index}`} href={travel.link}>
                   <div className="relative">
                     <Image
-                      src={`https://la-leyenda.com/ext-images/colombian/home/${travel.image}`}
+                      src={cloudinaryImageUrl(travel.image, {
+                        assetFolderIncludes: "colombian/home",
+                      })}
                       alt={travel.title}
                       width="0"
                       height="0"
@@ -170,7 +173,7 @@ export const Home = () => {
       </div>
       <div id="sub-banner">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305945/sub_ts93tk.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

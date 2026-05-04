@@ -57,7 +57,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Lafresnayes-Piculet-AP1.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305906/Lafresnayes-Piculet-AP1_xpwbpj.jpg"
               alt="Lafresnaye’s Piculet"
               width="0"
               height="0"

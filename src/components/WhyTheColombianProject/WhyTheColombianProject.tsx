@@ -37,7 +37,7 @@ export const WhyTheColombianProject = () => {
           <div>
             <figure>
               <Image
-                src="https://la-leyenda.com/ext-images/colombian/why/Cloud-forest-stream-La-Patasola-Reserve-Coffee-Region-Colombia.jpeg"
+                src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305951/Cloud-forest-stream-La-Patasola-Reserve-Coffee-Region-Colombia_b9po9d.jpg"
                 alt="Cloud forest stream, La Patasola Reserve, Coffee Region"
                 width="0"
                 height="0"
@@ -54,7 +54,7 @@ export const WhyTheColombianProject = () => {
           <div>
             <figure>
               <Image
-                src="https://la-leyenda.com/ext-images/colombian/why/Hacienda-Suescun-Sogamoso-Tibasosa-Boyaca-Colombia-Eastern-Andes-Colombian-Project-1.jpeg"
+                src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305951/Hacienda-Suescun-Sogamoso-Tibasosa-Boyaca-Colombia-Eastern-Andes-Colombian-Project-1_ogncgt.jpg"
                 alt="Hacienda Suescun, Sogamoso."
                 width="0"
                 height="0"
@@ -108,7 +108,7 @@ export const WhyTheColombianProject = () => {
           <div>
             <figure>
               <Image
-                src="https://la-leyenda.com/ext-images/colombian/why/Group-history-archaeology-Cerro-Azul-Guaviare-Amazon-Colombia-Colombian-Project-1.jpeg"
+                src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305952/Group-history-archaeology-Cerro-Azul-Guaviare-Amazon-Colombia-Colombian-Project-1_fylpay.jpg"
                 alt="History & Archaeology group, Cerro Azul, Guaviare, Amazon"
                 width="0"
                 height="0"
@@ -125,7 +125,7 @@ export const WhyTheColombianProject = () => {
           <div>
             <figure>
               <Image
-                src="https://la-leyenda.com/ext-images/colombian/why/tarapoto.jpeg"
+                src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305952/tarapoto_ysab7l.jpg"
                 alt="Birding group, PNN Los Nevados, Coffee Region"
                 width="0"
                 height="0"
@@ -187,7 +187,7 @@ export const WhyTheColombianProject = () => {
           <div>
             <figure>
               <Image
-                src="https://la-leyenda.com/ext-images/colombian/why/Capybara-Wildlife-watching-Hato-La-Aurora-Juan-Solito-Llanos-Casanare-Colombia-Colombian-Project-2.jpeg"
+                src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305952/Capybara-Wildlife-watching-Hato-La-Aurora-Juan-Solito-Llanos-Casanare-Colombia-Colombian-Project-2_ghkb9x.jpg"
                 alt="Capybara, Hato La Aurora, Llanos (Eastern Plains)"
                 width="0"
                 height="0"
@@ -203,7 +203,7 @@ export const WhyTheColombianProject = () => {
       </div>
       <div id="banner">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305945/sub_ts93tk.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

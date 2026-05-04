@@ -44,7 +44,7 @@ export const Llanos = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/regions/big/orinoquia.png"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305911/orinoquia_mt3ung.png"
               alt="Llanos ecoregion - Colombia birding sites"
               width="0"
               height="0"

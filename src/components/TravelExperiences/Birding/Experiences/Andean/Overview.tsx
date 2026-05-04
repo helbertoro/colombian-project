@@ -89,7 +89,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Golden-chested-Tanager-Anchicaya-Colombia.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305906/Golden-chested-Tanager-Anchicaya-Colombia_rbjeqm.jpg"
               alt="Golden-chested Tanager (E) Photo: Anderson Muñoz"
               width="0"
               height="0"

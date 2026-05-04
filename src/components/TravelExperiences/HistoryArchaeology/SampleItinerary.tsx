@@ -44,7 +44,7 @@ export const SampleItinerary = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/history-archaeology/La-Chaquira-carving-canyon-River-Magdalena-San-Agustin-Archaeological-Park-Huila-Colombia.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305953/La-Chaquira-carving-canyon-River-Magdalena-San-Agustin-Archaeological-Park-Huila-Colombia_dwwozu.jpg"
               alt="La Chaquira, River Magdalena Canyon, Huila"
               width="0"
               height="0"

@@ -15,7 +15,7 @@ export const MegaDiversity = () => {
             <div>
               <figure>
                 <Image
-                  src="https://la-leyenda.com/ext-images/colombian/colombia/Guambiano-lady-market-Silvia-Cauca-Colombia-Culture-1.jpeg"
+                  src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305943/Guambiano-lady-market-Silvia-Cauca-Colombia-Culture-1_pcfgfw.jpg"
                   alt="Photo Misak / Guambiano woman, Silvia market, Cauca"
                   width="0"
                   height="0"
@@ -74,7 +74,7 @@ export const MegaDiversity = () => {
         </div>
         <div className="mx-auto w-9/12">
           <Image
-            src="https://la-leyenda.com/ext-images/colombian/megadiversity/mapa.jpeg"
+            src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305943/mapa_tyifdw.jpg"
             alt="Image Colombian Project Culture"
             width="0"
             height="0"
@@ -126,7 +126,7 @@ export const MegaDiversity = () => {
             <div className="w-full">
               <figure>
                 <Image
-                  src="https://la-leyenda.com/ext-images/colombian/colombia/IMG_9320-2.jpeg"
+                  src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305941/IMG_9320-2_x5uxaz.jpg"
                   alt="Photo Lulo, agro-ecological farm, Laguna de la Cocha, Nariño"
                   width="0"
                   height="0"
@@ -141,7 +141,7 @@ export const MegaDiversity = () => {
             <div className="w-full">
               <figure>
                 <Image
-                  src="https://la-leyenda.com/ext-images/colombian/colombia/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project.jpeg"
+                  src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305941/MTB-ride-Coffee-Region-Central-Andes-Multisport-Colombia-Colombian-Project_mrolct.jpg"
                   alt="Photo Crowned-Woodnymph, El Dorado Reserve"
                   width="0"
                   height="0"
@@ -156,7 +156,7 @@ export const MegaDiversity = () => {
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/megadiversity/White-fronted-Capuchin.jpg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305943/White-fronted-Capuchin_bjmaiy.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

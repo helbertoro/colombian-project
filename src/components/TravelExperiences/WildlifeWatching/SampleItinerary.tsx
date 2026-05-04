@@ -43,7 +43,7 @@ export const SampleItinerary = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/wildlife-watching/Purple-throated-Woodstar-Hummingbird-Tatama-Montezuma-Western-Andes-Choco-Bird-Colombian-Project-resized-scaled.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305898/Purple-throated-Woodstar-Hummingbird-Tatama-Montezuma-Western-Andes-Choco-Bird-Colombian-Project-resized-scaled_tv3r2m.jpg"
               alt="Purple-throated woodstar, Montezuma"
               width="0"
               height="0"

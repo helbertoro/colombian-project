@@ -38,7 +38,7 @@ export const SampleItinerary = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/the-lost-city/Lost-City-carved-stone-Sierra-Nevada-Santa-Marta-Trek-Ciudad-Perdida-Colombia-Colombian-Project.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305942/Lost-City-carved-stone-Sierra-Nevada-Santa-Marta-Trek-Ciudad-Perdida-Colombia-Colombian-Project_mogopf.jpg"
               alt="Carved stone, Lost City"
               width="0"
               height="0"

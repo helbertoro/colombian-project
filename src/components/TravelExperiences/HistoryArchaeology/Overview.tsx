@@ -47,7 +47,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/history-archaeology/Doorway-Villa-de-Leyva-heritage-Spanish-colonial-town-history-Boyaca-Colombia-Colombian-Project.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305956/Doorway-Villa-de-Leyva-heritage-Spanish-colonial-town-history-Boyaca-Colombia-Colombian-Project_thqpyf.jpg"
               alt="Spanish colonial town – Villa De Leyva, Boyaca"
               width="0"
               height="0"

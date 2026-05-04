@@ -35,7 +35,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/the-lost-city/Lost-City-side-staircase-Sierra-Nevada-Santa-Marta-Trek-Ciudad-Perdida-Colombia-Colombian-Project.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305946/Lost-City-side-staircase-Sierra-Nevada-Santa-Marta-Trek-Ciudad-Perdida-Colombia-Colombian-Project_zgtasu.jpg"
               alt="Staircase, Lost City"
               width="0"
               height="0"

@@ -48,7 +48,7 @@ export const Caribbean = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/regions/big/caribbean.png"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305910/caribbean_jnrbgl.png"
               alt="Caribbean ecoregion - Colombia birding sites"
               width="0"
               height="0"

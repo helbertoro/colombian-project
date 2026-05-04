@@ -40,7 +40,7 @@ export const SampleItinerary = () => {
       <div>
         <div className="w-full">
           <Image
-            src="https://la-leyenda.com/ext-images/colombian/educational-tours/educational-tours-2.jpeg"
+            src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305950/educational-tours-2_btoavt.jpg"
             alt="Image Colombian Project Educational Tours image"
             width="0"
             height="0"

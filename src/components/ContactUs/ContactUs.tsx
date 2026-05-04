@@ -8,7 +8,7 @@ export const ContactUs = () => {
     <Layout>
       <div className="bg-neutral text-accent">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/home/banner/birding.jpeg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305901/birding_i3p708.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

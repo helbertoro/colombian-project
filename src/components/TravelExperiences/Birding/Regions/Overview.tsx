@@ -77,7 +77,7 @@ export const Overview = () => {
 
         <figure>
           <Image
-            src="https://la-leyenda.com/ext-images/colombian/birding/aves.jpeg"
+            src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305940/aves_wajsdv.jpg"
             alt="Black-chested Mountain-Tanager"
             width="0"
             height="0"

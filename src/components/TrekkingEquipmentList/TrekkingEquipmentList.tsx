@@ -254,7 +254,7 @@ export const TrekkingEquipmentList = () => {
       </div>
       <div id="sub">
         <Image
-          src="https://la-leyenda.com/ext-images/colombian/banner/sub.jpeg"
+          src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305945/sub_ts93tk.jpg"
           alt="Image Colombian Project Culture"
           width="0"
           height="0"

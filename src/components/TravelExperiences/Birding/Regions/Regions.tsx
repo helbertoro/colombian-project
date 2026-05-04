@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Overview, Andes, Caribbean, Amazonas, Pacific, Llanos } from "./";
+import { cloudinaryImageUrl } from "@/utils/cloudinaryImageUrl";
 
 export const Regions = () => {
   const [activeItem, setActiveItem] = useState(0);
@@ -57,7 +58,13 @@ export const Regions = () => {
               <div className="mb-1">
                 <figure className="shrink-0 p-4">
                   <Image
-                    src={`https://la-leyenda.com/ext-images/colombian/birding/regions/${section.image}`}
+                    src={cloudinaryImageUrl(section.image, {
+                      assetFolderIncludes: "colombian/birding/regions",
+                      assetFolderExcludes: [
+                        "/birding/regions/big",
+                        "/birding/regions/tours",
+                      ],
+                    })}
                     alt={section.title}
                     width="0"
                     height="0"

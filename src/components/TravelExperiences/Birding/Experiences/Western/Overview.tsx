@@ -97,7 +97,7 @@ export const Overview = () => {
         <div>
           <figure>
             <Image
-              src="https://la-leyenda.com/ext-images/colombian/birding/Bar-bellied-Woodpecker-Central-Andes-Birding-Colombia-Fabio-Arias.jpeg"
+              src="https://res.cloudinary.com/df4oqzjjm/image/upload/v1776305940/Bar-bellied-Woodpecker-Central-Andes-Birding-Colombia-Fabio-Arias_kq7dep.jpg"
               alt="Bar-bellied Woodpecker. Photo: Fabio Arias"
               width="0"
               height="0"
